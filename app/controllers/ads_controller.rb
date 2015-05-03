@@ -8,7 +8,7 @@ class AdsController < ApplicationController
   # POST /ads
   # POST /ads.json
   def create
-    @ad = Ad.new(params[:ad])
+    @ad = Ad.new(ad_params)
     respond_to do |format|
       if @ad.save
         format.html { redirect_to @ad, notice: 'Ad was successfully created.' }
@@ -19,4 +19,11 @@ class AdsController < ApplicationController
       end
     end
   end
+
+  private
+
+  def ad_params
+      params.require(:ad).permit(:phone, :price, 
+        :location, :marka_id, :model_id, :release_id, :gearbox_id, :steer_id, :state_id)
+    end
 end
