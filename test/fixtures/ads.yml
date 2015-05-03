@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  phone: MyString
+  price: MyString
+  location: MyString
+  marka_id: 
+  model_id: 
+  release_id: 
+  gearbox_id: 
+  steer_id: 
+  state_id: 
+
+two:
+  phone: MyString
+  price: MyString
+  location: MyString
+  marka_id: 
+  model_id: 
+  release_id: 
+  gearbox_id: 
+  steer_id: 
+  state_id: 

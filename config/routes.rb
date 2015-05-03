@@ -1,11 +1,16 @@
 Rails.application.routes.draw do
 
+  #get 'ads/index'
+
+  #get 'ads/create'
+
   # You can have the root of your site routed with "root"
   root 'welcome#index'
   
 
   resources :engines, :bodies, :colors, :capacities, :releases, :steers, only: [:index]
   resources :owners, :states, :drives, :odometers, :gearboxes, only: [:index]
+  resources :ads, only: [:index, :create]
 
 
   # The priority is based upon order of creation: first created -> highest priority.

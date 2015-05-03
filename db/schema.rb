@@ -11,7 +11,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150424114011) do
+ActiveRecord::Schema.define(version: 20150503135311) do
+
+  create_table "ads", force: :cascade do |t|
+    t.string   "phone"
+    t.string   "price"
+    t.string   "location"
+    t.integer  "marka_id"
+    t.integer  "model_id"
+    t.integer  "release_id"
+    t.integer  "gearbox_id"
+    t.integer  "steer_id"
+    t.integer  "state_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "ads", ["gearbox_id"], name: "index_ads_on_gearbox_id"
+  add_index "ads", ["marka_id"], name: "index_ads_on_marka_id"
+  add_index "ads", ["model_id"], name: "index_ads_on_model_id"
+  add_index "ads", ["phone"], name: "index_ads_on_phone"
+  add_index "ads", ["release_id"], name: "index_ads_on_release_id"
+  add_index "ads", ["state_id"], name: "index_ads_on_state_id"
+  add_index "ads", ["steer_id"], name: "index_ads_on_steer_id"
 
   create_table "bodies", force: :cascade do |t|
     t.string   "typ"

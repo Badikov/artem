@@ -5,6 +5,16 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+#a = Array.new
+#a=[1, 2, 3, 4,5,6,7,8,9,10]
+#a.each do|x| 
+#  puts x
+#  @release = Release.find_by_id(x)
+#  puts @release.data
+#  @release.destroy
+#end
+ 
+
 
 #file = File.open("avto.txt")
 #  file.each do |line|
