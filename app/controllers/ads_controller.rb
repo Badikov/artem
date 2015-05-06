@@ -2,7 +2,7 @@ class AdsController < ApplicationController
   respond_to :json
 
   def index
-    respond_with Ad.all
+    respond_with Ad.all 
   end
   def show
     respond_with Ad.find(params[:id])
@@ -14,19 +14,7 @@ class AdsController < ApplicationController
   # POST /ads
   # POST /ads.json
   def create
-    respond_with Ad.create(ad_params)
-    #@ad = Ad.new(ad_params)
-=begin
-    respond_to do |format|
-      if @ad.save
-        format.html { redirect_to @ad, notice: 'Ad was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @ad }
-      else
-        format.html { render action: 'new' }
-        format.json { render json: @ad.errors, status: :unprocessable_entity }
-      end
-    end
-=end
+    respond_with Ad.create(ad_params) { render :nothing => true, status: :created }
   end
 
   def destroy

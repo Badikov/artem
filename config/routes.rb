@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-
+  resources :ads, only: [:index, :create]
   #get 'ads/index'
 
   #get 'ads/create'
@@ -10,7 +10,7 @@ Rails.application.routes.draw do
 
   resources :engines, :bodies, :colors, :capacities, :releases, :steers, only: [:index]
   resources :owners, :states, :drives, :odometers, :gearboxes, only: [:index]
-  resources :ads, only: [:index, :create]
+  
 
 
   # The priority is based upon order of creation: first created -> highest priority.
