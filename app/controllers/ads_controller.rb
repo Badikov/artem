@@ -1,6 +1,8 @@
 class AdsController < ApplicationController
   respond_to :json
 
+  # GET /ads
+  # GET /ads.json
   def index
     respond_with Ad.all 
   end
@@ -14,7 +16,7 @@ class AdsController < ApplicationController
   # POST /ads
   # POST /ads.json
   def create
-    respond_with Ad.create(ad_params) { render :nothing => true, status: :created }
+    Ad.create(ad_params) { render :nothing => true, status: :created }
   end
 
   def destroy
