@@ -22,11 +22,17 @@ class AdsController < ApplicationController
   def destroy
     respond_with Ad.destroy(params[:id])
   end
+  # GET /search.json?param=value
+  def search
+    respond_with Ad.search params
+    #logger.debug{ "===============>" + params[:model_id] }
+  end
 
   private
 
   def ad_params
-      params.require(:ad).permit(:phone, :price, :location, :marka_id, 
-        :model_id, :release_id, :gearbox_id, :steer_id, :state_id)
-    end
+    params.require(:ad).permit(:phone, :price, :location, :marka_id, 
+      :model_id, :release_id, :gearbox_id, :steer_id, :state_id)
+  end
+  
 end

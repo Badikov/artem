@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
-  resources :ads, only: [:index, :create]
+  resources :ads, only: [:index, :create, :search]
   #get 'ads/index'
-
-  #get 'ads/create'
+  
+  match 'search' => 'ads#search', as: :search, :via => [:get]
+  
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
