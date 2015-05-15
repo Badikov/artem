@@ -7,7 +7,8 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
-  
+    
+  get 'welcome/download_apk', as: :advert
 
   resources :engines, :bodies, :colors, :capacities, :releases, :steers, only: [:index]
   resources :owners, :states, :drives, :odometers, :gearboxes, only: [:index]
