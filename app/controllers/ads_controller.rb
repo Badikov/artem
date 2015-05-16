@@ -16,7 +16,11 @@ class AdsController < ApplicationController
   # POST /ads
   # POST /ads.json
   def create
-    Ad.create(ad_params) { render :nothing => true, status: :created }
+    if Ad.create(ad_params) 
+      render nothing: true, status: :created 
+    else
+      render nothing: true, status: :unprocessable_entity 
+    end
   end
 
   def destroy

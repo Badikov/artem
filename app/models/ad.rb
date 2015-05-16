@@ -11,12 +11,11 @@ class Ad < ActiveRecord::Base
   end
 
   def self.mark_obsolete_to_true_running_method
-    # update_all(:obsolete => true,["created_at < ?", (Time.now - 600)])
-    update_all({:obsolete => true})
+    Ad.not_obsolete.where('created_at < ?',(Time.now - 600)).update_all(obsolete: true)
   end
 
   def self.search(search)
-    select('id,phone,md5')._marka(search)._model(search).
+    select('id,phone,md5').not_obsolete._marka(search)._model(search).
     _gearbox(search)._steer(search)._state(search).
     _release_from(search)._release_to(search).
     _price_from(search)._price_to(search)
