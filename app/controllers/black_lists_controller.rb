@@ -1,4 +1,5 @@
 class BlackListsController < ApplicationController
+  http_basic_authenticate_with name: "admin", password: "secret", except: :index
   before_action :set_black_list, only: [:show, :edit, :update, :destroy]
 
   respond_to :html
