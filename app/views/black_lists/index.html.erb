@@ -1,12 +1,12 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Black Lists</h1>
+<h1>Черный список номеров телефонов</h1>
 
 <table>
   <thead>
     <tr>
-      <th>Phone</th>
-      <th>Coment</th>
+      <th>Номер</th>
+      <th>Коментарий</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,9 +16,9 @@
       <tr>
         <td><%= black_list.phone %></td>
         <td><%= black_list.coment %></td>
-        <td><%= link_to 'Show', black_list %></td>
-        <td><%= link_to 'Edit', edit_black_list_path(black_list) %></td>
-        <td><%= link_to 'Destroy', black_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Показать', black_list %></td>
+        <td><%= link_to 'Изменить', edit_black_list_path(black_list) %></td>
+        <td><%= link_to 'Удалить', black_list, method: :delete, data: { confirm: 'Вы уверены?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Black list', new_black_list_path %>
+<%= link_to 'Новый телефон в черный список', new_black_list_path %>
