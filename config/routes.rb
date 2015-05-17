@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :black_lists
   resources :ads, only: [:index, :create, :search]
   #get 'ads/index'
   

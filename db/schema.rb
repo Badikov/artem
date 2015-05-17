@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150515131621) do
+ActiveRecord::Schema.define(version: 20150517152612) do
 
   create_table "ads", force: :cascade do |t|
     t.string   "phone"
@@ -40,6 +40,15 @@ ActiveRecord::Schema.define(version: 20150515131621) do
   add_index "ads", ["release_id"], name: "index_ads_on_release_id"
   add_index "ads", ["state_id"], name: "index_ads_on_state_id"
   add_index "ads", ["steer_id"], name: "index_ads_on_steer_id"
+
+  create_table "black_lists", force: :cascade do |t|
+    t.string   "phone",      null: false
+    t.string   "coment"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "black_lists", ["phone"], name: "index_black_lists_on_phone", unique: true
 
   create_table "bodies", force: :cascade do |t|
     t.string   "typ"

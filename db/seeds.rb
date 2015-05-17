@@ -47,77 +47,92 @@
 #    Body.create(typ: name)
 #  end
 #file.close
-=begin
-file = File.open("color.txt")
-  file.each do |line|
-    name = line.chop
-    puts name
-    Color.create(name: name)
-  end
-file.close
 
-file = File.open("size_of_engine.txt")
-  file.each do |line|
-    name = line.chop
-    puts name
-    Capacity.create(volume: name)
-  end
-file.close
+#file = File.open("color.txt")
+#  file.each do |line|
+#    name = line.chop
+#    puts name
+#    Color.create(name: name)
+#  end
+#file.close
 
-file = File.open("rul.txt")
-  file.each do |line|
-    name = line.chop
-    puts name
-    Steer.create(typ: name)
-  end
-file.close
+#file = File.open("size_of_engine.txt")
+#  file.each do |line|
+#    name = line.chop
+#    puts name
+#    Capacity.create(volume: name)
+#  end
+#file.close
 
-file = File.open("god.txt")
-  file.each do |line|
-    name = line.chop
-    puts name
-    Release.create(data: name)
-  end
-file.close
+#file = File.open("rul.txt")
+#  file.each do |line|
+#    name = line.chop
+#    puts name
+#    Steer.create(typ: name)
+#  end
+#file.close
+
+#file = File.open("god.txt")
+#  file.each do |line|
+#    name = line.chop
+#    puts name
+#    Release.create(data: name)
+#  end
+#file.close
 
 
-file = File.open("privod.txt")
-  file.each do |line|
-    name = line.chop
-    puts name
-    Drive.create(name: name)
-  end
-file.close
+#file = File.open("privod.txt")
+#  file.each do |line|
+#    name = line.chop
+#    puts name
+#    Drive.create(name: name)
+#  end
+#file.close
 
-file = File.open("sostoyanie.txt")
-  file.each do |line|
-    name = line.chop
-    puts name
-    State.create(name: name)
-  end
-file.close
+#file = File.open("sostoyanie.txt")
+#  file.each do |line|
+#    name = line.chop
+#    puts name
+#    State.create(name: name)
+#  end
+#file.close
 
-file = File.open("owner.txt")
-  file.each do |line|
-    name = line.chop
-    puts name
-    Owner.create(name: name)
-  end
-file.close
+#file = File.open("owner.txt")
+#  file.each do |line|
+#    name = line.chop
+#    puts name
+#    Owner.create(name: name)
+#  end
+#file.close
 
-file = File.open("probeg.txt")
-  file.each do |line|
-    name = line.chop
-    puts name
-    Odometer.create(kilometer: name)
-  end
-file.close
+#file = File.open("probeg.txt")
+#  file.each do |line|
+#    name = line.chop
+#    puts name
+#    Odometer.create(kilometer: name)
+#  end
+#file.close
 
-file = File.open("gearbox.txt")
+#file = File.open("gearbox.txt")
+#  file.each do |line|
+#    name = line.chop
+#    puts name
+#    Gearbox.create(name: name)
+#  end
+#file.close
+
+file = File.open("blacklist.txt")  
+  i=0
   file.each do |line|
-    name = line.chop
-    puts name
-    Gearbox.create(name: name)
-  end
+    phone = line.chop
+    if phone.match(/^7/) 
+      n = phone.length
+      phone = '8' + phone[1..n]
+    end
+    puts phone
+    BlackList.create(phone: phone,coment: "Добавлено при создании списка")
+    i+=1
+  end  
+
 file.close
-=end
+puts i

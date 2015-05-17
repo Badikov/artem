@@ -16,10 +16,14 @@ class AdsController < ApplicationController
   # POST /ads
   # POST /ads.json
   def create
-    if Ad.create(ad_params) 
-      render nothing: true, status: :created 
+    if !BlackList.if_phone_exist?(params[:ad][:phone])
+      if Ad.create(ad_params) 
+        render nothing: true, status: :created 
+      else
+        render nothing: true, status: :unprocessable_entity 
+      end
     else
-      render nothing: true, status: :unprocessable_entity 
+      render nothing: true, status: :created
     end
   end
 
