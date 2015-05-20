@@ -18,7 +18,8 @@ class Ad < ActiveRecord::Base
     select('id,phone,md5').not_obsolete._marka(search)._model(search).
     _gearbox(search)._steer(search)._state(search).
     _release_from(search)._release_to(search).
-    _price_from(search)._price_to(search)
+    _price_from(search)._price_to(search).
+    _location(search)._overseas(search)
     
     # logger.debug{"из модели " + search[:model_id]}
   end
@@ -36,6 +37,22 @@ class Ad < ActiveRecord::Base
   # price_from & price_to
   scope :_price_to, ->(search) {where("price <= ?",search[:price_to]) if search[:price_to].present?}
   scope :_price_from, ->(search) {where("price >= ?",search[:price_from]) if search[:price_from].present?}
+  # location
+  scope :_location, ->(search) {  if search[:location].present? 
+                                    if search[:location] == "Краснодар"
+                                      where(location:search[:location])
+                                    else
+                                      #where("location <> ?","Краснодар")
+                                      where.not(location:"Краснодар")
+                                    end
+                                  end }
+  # overseas - только иномарки "overseas"=>"1"
+  scope :_overseas, ->(search) {  if search[:overseas].present? 
+                                    # id русских моделей авто
+                                    ids = [125,126,127,128,129,130,131,132,133]
+                                    where.not(marka_id: ids)
+
+                                  end}
 
   before_create :add_md5
 

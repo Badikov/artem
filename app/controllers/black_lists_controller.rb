@@ -5,7 +5,7 @@ class BlackListsController < ApplicationController
   respond_to :html
 
   def index
-    @black_lists = BlackList.all
+    @black_lists = BlackList.all.order(:phone)
     respond_with(@black_lists)
   end
 

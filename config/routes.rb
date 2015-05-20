@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :black_lists
+    
   resources :ads, only: [:index, :create, :search]
   #get 'ads/index'
   
@@ -12,8 +12,8 @@ Rails.application.routes.draw do
   get 'welcome/download_apk', as: :advert
 
   resources :engines, :bodies, :colors, :capacities, :releases, :steers, only: [:index]
-  resources :owners, :states, :drives, :odometers, :gearboxes, only: [:index]
-  
+  resources :owners, :states, :drives, :odometers, :gearboxes, :locations, only: [:index]
+  resources :black_lists
 
 
   # The priority is based upon order of creation: first created -> highest priority.

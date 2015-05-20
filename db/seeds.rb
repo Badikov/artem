@@ -121,18 +121,24 @@
 #  end
 #file.close
 
-file = File.open("blacklist.txt")  
-  i=0
-  file.each do |line|
-    phone = line.chop
-    if phone.match(/^7/) 
-      n = phone.length
-      phone = '8' + phone[1..n]
-    end
-    puts phone
-    BlackList.create(phone: phone,coment: "Добавлено при создании списка")
-    i+=1
-  end  
+#file = File.open("blacklist.txt")  
+#  i=0
+#  file.each do |line|
+#    phone = line.chop
+#    if phone.match(/^7/) 
+#      n = phone.length
+#      phone = '8' + phone[1..n]
+#    end
+#    puts phone
+#    BlackList.create(phone: phone,coment: "Добавлено при создании списка")
+#    i+=1
+#  end  
 
-file.close
-puts i
+#file.close
+#puts i
+
+a =["Краснодар", "Краснодарский край"]
+a.map! { |e|  
+  Location.create(name: e)
+puts e
+}
