@@ -39,8 +39,8 @@ class Ad < ActiveRecord::Base
   scope :_price_from, ->(search) {where("price >= ?",search[:price_from]) if search[:price_from].present?}
   # location
   scope :_location, ->(search) {  if search[:location].present? 
-                                    if search[:location] == "Краснодар"
-                                      where(location:search[:location])
+                                    if search[:location] == 1  #"Краснодар"
+                                      where(location:"Краснодар")
                                     else
                                       #where("location <> ?","Краснодар")
                                       where.not(location:"Краснодар")
