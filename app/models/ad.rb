@@ -41,9 +41,16 @@ class Ad < ActiveRecord::Base
   scope :_location, ->(search) {  if search[:location].present? 
                                     if search[:location] == '1'
                                       where(location:"Краснодар")
+                                    elsif search[:location] == '3'
+                                      where(location:"Новороссийск")
+                                    elsif search[:location] == '4'
+                                      where(location:"Сочи")
+                                    elsif search[:location] == '5'
+                                      where(location:"Анапа")
                                     else
                                       #where("location <> ?","Краснодар")
-                                      where.not(location:"Краснодар")
+                                      citys = ["Краснодар","Новороссийск","Сочи","Анапа"]
+                                      where.not(location: citys)
                                     end
                                   end }
   # overseas - только иномарки "overseas"=>"1"

@@ -1,8 +1,23 @@
 Rails.application.routes.draw do
+
+  #get 'search/search'
+
+  post 'sessions' => 'user_sessions#create', :as => 'login'
+  delete 'sessions' => 'user_sessions#destroy', :as => 'logout'
     
+  namespace :admin do
+    resources :admins, only: [:index, :new, :create, :destroy]
+    #resources :users, path: '/admin/users'#, only: [:index, :new, :create]
+  #get 'admins/index'
+  end
+  scope module: 'admin' do
+    resources :users
+  end
+
+
   resources :ads, only: [:index, :create, :search]
   #get 'ads/index'
-  
+  # убрать как устаревший
   match 'search' => 'ads#search', as: :search, :via => [:get]
   
 
@@ -14,6 +29,8 @@ Rails.application.routes.draw do
   resources :engines, :bodies, :colors, :capacities, :releases, :steers, only: [:index]
   resources :owners, :states, :drives, :odometers, :gearboxes, :locations, only: [:index]
   resources :black_lists
+
+  #resource :user_sessions, only: [:create, :new, :destroy]
 
 
   # The priority is based upon order of creation: first created -> highest priority.

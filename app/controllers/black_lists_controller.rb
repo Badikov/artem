@@ -23,7 +23,7 @@ class BlackListsController < ApplicationController
 
   def create
     @black_list = BlackList.new(black_list_params)
-    @black_list.save
+    flash[:notice] = "Task was successfully created." if @black_list.save
     respond_with(@black_list)
   end
 

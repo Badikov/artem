@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Artem</title>
+  <%= favicon_link_tag %>
+  <%= metamagic title: "SMS сервис", description: "My default description.", keywords: %w() %>
+  
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <% if current_user %>
+    <%= link_to "Logout", admin_admin_path(current_user), :method => :delete, :confirm => "Are you sure you want to logout?" %>
+  <% end %>
 
 <%= yield %>
 

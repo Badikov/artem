@@ -1,0 +1,23 @@
+<!-- app/views/user_sessions/new.html.erb -->  
+<%= form_for @user, url: user_session_path, method: :post, html: { class: 'form-horizontal', role: 'form' } do |f| %>  
+  
+  <% if @user_session.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user_session.errors.count, "error") %> prohibited:</h2>
+      <ul>
+        <% @user_session.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class='form-group'>
+    <%= f.text_field :login, class: 'form-control', placeholder: 'Login' %>
+  </div>
+  <div class='form-group'>
+    <%= f.password_field :password, class: 'form-control', placeholder: 'Password' %>
+  </div>
+  <%= f.submit 'Login', class: 'btn btn-primary' %>
+  <% end %>
+<% end %>  

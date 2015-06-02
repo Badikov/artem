@@ -1,0 +1,41 @@
+<% meta title: "Список пользователей",
+        description: "Список пользователей"
+     #,keywords: %w(keyword1 keyword2 keyword3)
+%>
+
+<p id="notice"><%= notice %></p>
+
+<h2>Список пользователей</h2>
+
+<br>
+
+<%= link_to 'Новый пользователь', new_user_path %>
+<br />
+<br />
+<table>
+  <thead>
+    <tr>
+      <th>Имя</th>
+      <th>Телефон</th>
+      <th>Активный</th>
+      <th colspan="2"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= user.name %></td>
+        <td><%= user.phone_number %></td>
+        <td><%= check_box_tag 'active', 1, user.active ? {:checked => "checked"} : false, disabled: true -%></td>
+        
+        <td><%= link_to 'Изменить', edit_user_path(user) %></td>
+        <td>
+          <%= link_to 'Удалить',user_path(user), method: :delete,data:{ confirm: 'Вы уверены?' } if user.id != 1 %>
+        </td>
+        
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+

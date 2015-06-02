@@ -1,4 +1,7 @@
 class AdsController < ApplicationController
+  # 
+  skip_before_filter :verify_authenticity_token,
+                     :if => Proc.new { |c| c.request.format == 'application/json' }
   respond_to :json
 
   # GET /ads
@@ -23,6 +26,7 @@ class AdsController < ApplicationController
         render nothing: true, status: :unprocessable_entity 
       end
     else
+      #logger.debug{ "===============>" + params[:ad][:phone] }
       render nothing: true, status: :created
     end
   end
