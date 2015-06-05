@@ -33,6 +33,12 @@ class ApplicationController < ActionController::Base
       end
     end
 
+  def require_user 
+    unless current_user 
+      render(:json => {:success => false,:info => 'Authentication required.',:data => {}}, :status => 401) and return false 
+    end 
+  end
+
   def store_location
       session[:return_to] = request.url
   end

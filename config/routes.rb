@@ -15,10 +15,12 @@ Rails.application.routes.draw do
   end
 
 
-  resources :ads, only: [:index, :create, :search]
+  # resources :ads, only: [:index, :create, :search]
+  resources :ads, only: [:index, :create]
   #get 'ads/index'
   # убрать как устаревший
-  match 'search' => 'ads#search', as: :search, :via => [:get]
+  # match 'search' => 'ads#search', as: :search, :via => [:get]
+  match 'search' => 'search#search', as: :search, :via => [:get]
   
 
   # You can have the root of your site routed with "root"

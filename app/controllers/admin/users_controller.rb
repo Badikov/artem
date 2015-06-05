@@ -29,7 +29,7 @@ class Admin::UsersController < ApplicationController
 
   def destroy
     @user.destroy
-    redirect_to users_pat, notice: "User successfully deleted"
+    redirect_to users_path, notice: "User successfully deleted"
   end
 
   private

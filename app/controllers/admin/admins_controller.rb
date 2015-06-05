@@ -15,10 +15,10 @@ class Admin::AdminsController < ApplicationController
 
   def create
     @user_session = UserSession.new user_session_params
-    #TODO здесь логинится должен мочь только первый User
-    if @user_session.save
-      #logger.debug{"из модели " + @user_session.authenticity_token}
-      Rails.logger.info(@user_session.inspect)
+    # здесь логинится должен мочь только первый User
+    if @user_session.save && @user_session.user.id == 1
+      # logger.debug{"из модели " + @user_session.user.id.to_s}
+      # Rails.logger.info(@user_session.inspect)
       redirect_to admin_admins_path
     else
       redirect_to new_admin_admin_path
