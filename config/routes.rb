@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
-  get 'versions' => 'versions#index', :as => 'version'
+  
 
-  get 'regions/index'
+  # get 'regions/index'
 
   #get 'search/search'
 
@@ -34,8 +34,10 @@ Rails.application.routes.draw do
 
   resources :engines, :bodies, :colors, :capacities, :releases, :steers, only: [:index]
   resources :owners, :states, :drives, :odometers, :gearboxes, :locations, only: [:index]
+  resources :regions, only: [:index]
   resources :black_lists
 
+  get 'versions' => 'versions#index', :as => 'version'
   #resource :user_sessions, only: [:create, :new, :destroy]
 
 
