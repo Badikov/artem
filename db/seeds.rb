@@ -142,11 +142,13 @@
   # Location.create(name: e)
 # puts e
 # }
-citys = ["Новороссийск","Сочи","Анапа"]
-citys.map! { |e|  
-   Location.create(name: e)
- puts e
- }
+# citys = ["Новороссийск","Сочи","Анапа"]
+# citys.map! { |e|  
+#    Location.create(name: e)
+#  puts e
+#  }
  
-User.create(login: 'artem', name: 'Artem', password: 'password', 
- password_confirmation: 'password' ,phone_number: '89182729999')
+# User.create(login: 'artem', name: 'Artem', password: 'password', 
+#  password_confirmation: 'password' ,phone_number: '89182729999')
+
+Region.create(name: "Краснодарский край")

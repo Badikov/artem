@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'versions' => 'versions#index', :as => 'version'
+
+  get 'regions/index'
+
   #get 'search/search'
 
   post 'sessions' => 'user_sessions#create', :as => 'login'
