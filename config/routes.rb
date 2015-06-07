@@ -2,6 +2,10 @@ Rails.application.routes.draw do
 
   
 
+  # get 'droms/index'
+
+  # get 'droms/create'
+
   # get 'regions/index'
 
   #get 'search/search'
@@ -20,7 +24,8 @@ Rails.application.routes.draw do
 
 
   # resources :ads, only: [:index, :create, :search]
-  resources :ads, only: [:index, :create]
+  resources :ads,   only: [:index, :create]
+  resources :droms, only: [:index, :create]
   #get 'ads/index'
   # убрать как устаревший
   # match 'search' => 'ads#search', as: :search, :via => [:get]

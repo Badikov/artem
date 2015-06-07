@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150606145202) do
+ActiveRecord::Schema.define(version: 20150606174259) do
 
   create_table "ads", force: :cascade do |t|
     t.string   "phone"
@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 20150606145202) do
     t.datetime "updated_at",                 null: false
     t.string   "md5"
     t.boolean  "obsolete",   default: false, null: false
+    t.integer  "region_id"
   end
 
   add_index "ads", ["created_at", "obsolete"], name: "index_ads_on_created_at_and_obsolete"
@@ -73,6 +74,36 @@ ActiveRecord::Schema.define(version: 20150606145202) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
+  create_table "droms", force: :cascade do |t|
+    t.string   "phone",                      null: false
+    t.string   "price",      default: "0",   null: false
+    t.string   "location"
+    t.string   "md5"
+    t.boolean  "obsolete",   default: false, null: false
+    t.integer  "region_id",                  null: false
+    t.integer  "marka_id"
+    t.integer  "model_id"
+    t.integer  "release_id"
+    t.integer  "gearbox_id"
+    t.integer  "steer_id"
+    t.integer  "state_id"
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
+  end
+
+  add_index "droms", ["created_at", "obsolete"], name: "index_droms_on_created_at_and_obsolete"
+  add_index "droms", ["gearbox_id"], name: "index_droms_on_gearbox_id"
+  add_index "droms", ["location"], name: "index_droms_on_location"
+  add_index "droms", ["marka_id"], name: "index_droms_on_marka_id"
+  add_index "droms", ["model_id"], name: "index_droms_on_model_id"
+  add_index "droms", ["obsolete"], name: "index_droms_on_obsolete"
+  add_index "droms", ["phone"], name: "index_droms_on_phone"
+  add_index "droms", ["price"], name: "index_droms_on_price"
+  add_index "droms", ["region_id"], name: "index_droms_on_region_id"
+  add_index "droms", ["release_id"], name: "index_droms_on_release_id"
+  add_index "droms", ["state_id"], name: "index_droms_on_state_id"
+  add_index "droms", ["steer_id"], name: "index_droms_on_steer_id"
 
   create_table "engines", force: :cascade do |t|
     t.string   "typ"

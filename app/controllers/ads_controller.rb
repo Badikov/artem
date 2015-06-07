@@ -44,7 +44,7 @@ class AdsController < ApplicationController
 
   def ad_params
     params.require(:ad).permit(:phone, :price, :location, :marka_id, 
-      :model_id, :release_id, :gearbox_id, :steer_id, :state_id)
+      :model_id, :release_id, :gearbox_id, :steer_id, :state_id, :region_id)
   end
   
 end
