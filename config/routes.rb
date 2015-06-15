@@ -28,7 +28,10 @@ Rails.application.routes.draw do
   resources :droms, only: [:index, :create]
   #get 'ads/index'
   # убрать как устаревший
-  # match 'search' => 'ads#search', as: :search, :via => [:get]
+  match 'search_m' => 'ads#search_m', as: :search_m, :via => [:get]
+  match 'last' => 'ads#last', as: :last, :via => [:get]
+
+
   match 'search' => 'search#search', as: :search, :via => [:get]
   
 

@@ -35,9 +35,14 @@ class AdsController < ApplicationController
     respond_with Ad.destroy(params[:id])
   end
   # GET /search.json?param=value
-  def search
+  def search_m
     respond_with Ad.search params
     #logger.debug{ "===============>" + params[:model_id] }
+  end
+
+  # GET /last.json
+  def last
+    respond_with Ad.rows_last_10_min
   end
 
   private

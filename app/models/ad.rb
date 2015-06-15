@@ -15,11 +15,15 @@ class Ad < ActiveRecord::Base
     Ad.not_obsolete.where('created_at < ?',(Time.now - 600)).update_all(obsolete: true)
   end
 
+  def self.rows_last_10_min
+    Ad.not_obsolete.where('created_at > ?',(Time.now - 600))
+  end
+
   def self.search(search)
     select('id,phone,md5').not_obsolete._marka(search)._model(search).
     _gearbox(search)._steer(search)._state(search).
     _release_from(search)._release_to(search).
-    _price_from(search)._price_to(search).
+    _price_from(search)._price_to(search)._region(search).
     _location(search)._overseas(search)
     
     # logger.debug{"из модели " + search[:model_id]}
@@ -38,6 +42,8 @@ class Ad < ActiveRecord::Base
   # price_from & price_to
   scope :_price_to, ->(search) {where("price <= ?",search[:price_to]) if search[:price_to].present?}
   scope :_price_from, ->(search) {where("price >= ?",search[:price_from]) if search[:price_from].present?}
+  
+  scope :_region,  ->(search) {where(region_id:search[:region_id]) if search[:region_id].present?}
   # location TODO - переделать нахрен
   scope :_location, ->(search) {  if search[:location].present? 
                                     if search[:location] == '1'
