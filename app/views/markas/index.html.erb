@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+<p><%= link_to 'Назад', root_path %></p>
+<br />
+<br />
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th class="row-marka">Авито</th>
+      <th class="row-marka">Дром</th>
+      <th colspan="2"></th>
+    </tr>
+  </thead>
+<% i = 1 %>
+  <tbody>
+    <% @markas.each do |marka| %>
+      <tr>
+        <td><%= i %></td>
+        <td class="row-marka"><%= marka.name %></td>
+        <td class="row-marka"><%= marka.name2 %></td>
+        
+        <td><%= link_to 'Изменить', edit_marka_path(marka) %></td>
+        <td><%= link_to 'Модели', marka_models_path(marka) %></td>
+        
+      </tr>
+<% i += 1 %>
+    <% end %>
+  </tbody>
+</table>

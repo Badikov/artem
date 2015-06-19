@@ -1,0 +1,1 @@
+﻿{"id":1,"name":"3200GT"},{"id":2,"name":"Coupe"},{"id":3,"name":"Ghibli"},{"id":4,"name":"GranCabrio"},{"id":5,"name":"GrandSport"},{"id":6,"name":"GranTurismo"},{"id":7,"name":"Maserati"},{"id":8,"name":"MC12"},{"id":9,"name":"Quattroporte"},{"id":10,"name":"Spyder"},

@@ -78,7 +78,7 @@ Rails.application.routes.draw do
   # Example resource route with sub-resources:
   resources :markas do
   #     resources :comments, :sales
-    resources :models, only: [:index, :new, :create]
+    resources :models, shallow: true
   end
 
   # Example resource route with more complex sub-resources:

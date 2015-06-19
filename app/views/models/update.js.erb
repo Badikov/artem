@@ -1,0 +1,9 @@
+<% if @result %>
+  $('div.container').prepend("<div id='flash_notice' style='overflow: hidden;'>Change successful.</div>");
+<% else %>
+  $('div.container').prepend("<div id='flash_warning' style='overflow: hidden;'>You are not allowed to do that or there was an error.</div>");
+<% end %>
+
+setTimeout(function() {
+  $('#flash_notice, #flash_warning').hide(400);
+}, 1500, false);

@@ -1,3 +1,27 @@
 // Place all the styles related to the Markas controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+table, div.container {
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+div.row-header {
+  width: 500px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  display: table;
+  
+}
+div.row-header div {
+  display: table-cell;
+  text-align: center;
+  width: 250px;
+}
+
+td.row-marka, th.row-marka {
+  width: 150px;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+}

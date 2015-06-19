@@ -1,0 +1,16 @@
+<p><%= link_to 'Назад', markas_path %></p>
+<br />
+
+<%  %>
+<h2><%= @marka.name %></h2>
+
+<div class="row-header">
+  <div>Авито</div> <div>Дром</div>
+</div>
+
+<div class="container">
+  <% @models.each do |model| %>
+    <%= render partial: 'form', locals: {model: model}   %>
+
+  <% end %>
+</div>

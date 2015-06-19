@@ -1,0 +1,2061 @@
+1,AC,1,Ace
+1,AC,2,Aceca
+1,AC,3,Cobra
+2,Acura,4,CL
+2,Acura,5,CSX
+2,Acura,6,EL
+2,Acura,7,Integra
+2,Acura,8,MDX
+2,Acura,9,NSX
+2,Acura,10,RDX
+2,Acura,11,RL
+2,Acura,12,RSX
+2,Acura,13,SLX
+2,Acura,14,TL
+2,Acura,15,TLX
+2,Acura,16,TSX
+2,Acura,17,ZDX
+3,Alfa Romeo,18,145
+3,Alfa Romeo,19,146
+3,Alfa Romeo,20,147
+3,Alfa Romeo,21,155
+3,Alfa Romeo,22,156
+3,Alfa Romeo,23,159
+3,Alfa Romeo,24,164
+3,Alfa Romeo,25,166
+3,Alfa Romeo,26,33
+3,Alfa Romeo,27,75
+3,Alfa Romeo,28,8C
+3,Alfa Romeo,29,90
+3,Alfa Romeo,30,Arna
+3,Alfa Romeo,31,Brera
+3,Alfa Romeo,32,Giulietta
+3,Alfa Romeo,33,GT
+3,Alfa Romeo,34,GTV
+3,Alfa Romeo,35,MiTo
+3,Alfa Romeo,36,RZ
+3,Alfa Romeo,37,Spider
+3,Alfa Romeo,38,SZ
+4,Alpina,39,A1
+4,Alpina,40,A2
+4,Alpina,41,A4
+4,Alpina,42,B10
+4,Alpina,43,B11
+4,Alpina,44,B12
+4,Alpina,45,B3
+4,Alpina,46,B5
+4,Alpina,47,B6
+4,Alpina,48,B7
+4,Alpina,49,B8
+4,Alpina,50,B9
+4,Alpina,51,C1
+4,Alpina,52,C2
+4,Alpina,53,D10
+4,Alpina,54,D3
+4,Alpina,55,D5
+4,Alpina,56,XD3
+5,Aro,57,10
+5,Aro,58,24
+5,Aro,59,Spartana
+6,Asia,60,Hi-topic
+6,Asia,61,Retona
+6,Asia,62,Rocstra
+7,Aston Martin,63,Cygnet
+7,Aston Martin,64,DB7
+7,Aston Martin,65,DB9
+7,Aston Martin,66,DBS
+7,Aston Martin,67,Lagonda
+7,Aston Martin,68,One-77
+7,Aston Martin,69,Rapide
+7,Aston Martin,70,Rapide S
+7,Aston Martin,71,V12 Vantage
+7,Aston Martin,72,V12 Vantage S
+7,Aston Martin,73,V8 Vantage
+7,Aston Martin,74,V8 Vantage S
+7,Aston Martin,75,Vanquish
+7,Aston Martin,76,Virage
+8,Audi,77,100
+8,Audi,78,200
+8,Audi,79,50
+8,Audi,80,60
+8,Audi,81,80
+8,Audi,82,90
+8,Audi,83,A1
+8,Audi,84,A2
+8,Audi,85,A3
+8,Audi,86,A4
+8,Audi,87,A5
+8,Audi,88,A6
+8,Audi,89,A7
+8,Audi,90,A8
+8,Audi,91,Allroad
+8,Audi,92,Cabriolet
+8,Audi,93,Coupe
+8,Audi,94,Q3
+8,Audi,95,Q5
+8,Audi,96,Q7
+8,Audi,97,Quattro
+8,Audi,98,R8
+8,Audi,99,RS1
+8,Audi,100,RS2
+8,Audi,101,RS3
+8,Audi,102,RS4
+8,Audi,103,RS5
+8,Audi,104,RS6
+8,Audi,105,RS7
+8,Audi,106,RS8
+8,Audi,107,S1
+8,Audi,108,S2
+8,Audi,109,S3
+8,Audi,110,S4
+8,Audi,111,S5
+8,Audi,112,S6
+8,Audi,113,S7
+8,Audi,114,S8
+8,Audi,115,SQ5
+8,Audi,116,TT
+8,Audi,117,TT RS
+8,Audi,118,TTS
+8,Audi,119,V8 
+9,BAW,120,Fenix
+9,BAW,121,Tonik
+10,Bentley,122,Arnage
+10,Bentley,123,Azure
+10,Bentley,124,Brooklands
+10,Bentley,125,Continental
+10,Bentley,126,Continental Flying Spur
+10,Bentley,127,Continental GT
+10,Bentley,128,Continental GTC
+10,Bentley,129,Continental Supersports
+10,Bentley,130,Mulsanne
+10,Bentley,131,Turbo R
+11,BMW,132,1
+11,BMW,133,2
+11,BMW,134,3
+11,BMW,135,3 GT
+11,BMW,136,4
+11,BMW,137,5
+11,BMW,138,5 GT
+11,BMW,139,6
+11,BMW,140,7
+11,BMW,141,8
+11,BMW,142,ActiveHybrid 7
+11,BMW,143,i3
+11,BMW,144,i8
+11,BMW,145,M3
+11,BMW,146,M5
+11,BMW,147,M6
+11,BMW,148,X1
+11,BMW,149,X3
+11,BMW,150,X4
+11,BMW,151,X5
+11,BMW,152,X5M
+11,BMW,153,X6
+11,BMW,154,X6M
+11,BMW,155,Z1
+11,BMW,156,Z3
+11,BMW,157,Z3M
+11,BMW,158,Z4
+11,BMW,159,Z4M
+11,BMW,160,Z8
+12,Briliance,161,A1
+12,Briliance,162,BS4
+12,Briliance,163,BS6
+12,Briliance,164,H530
+12,Briliance,165,M1
+12,Briliance,166,M2
+12,Briliance,167,M3
+12,Briliance,168,V5
+13,Bufori,169,La Joya
+14,Bugatti,170,EB
+14,Bugatti,171,Galibier
+14,Bugatti,172,Veyron
+15,Buick,173,Allure
+15,Buick,174,Century
+15,Buick,175,Electra
+15,Buick,176,Enclave
+15,Buick,177,Excelle
+15,Buick,178,GL8
+15,Buick,179,HRV
+15,Buick,180,LaCrosse
+15,Buick,181,LeSabre
+15,Buick,182,Lucerne
+15,Buick,183,Park Avenue
+15,Buick,184,Rainer
+15,Buick,185,Reatta
+15,Buick,186,Regal
+15,Buick,187,Rendezvous
+15,Buick,188,Riviera
+15,Buick,189,Roadmaster
+15,Buick,190,Royaum
+15,Buick,191,Sedan
+15,Buick,192,Skylark
+15,Buick,193,Terraza
+16,BYD,194,ET
+16,BYD,195,F0
+16,BYD,196,F2
+16,BYD,197,F3
+16,BYD,198,F6
+16,BYD,199,Flyer
+16,BYD,200,S8
+17,Cadillac,201,Allante
+17,Cadillac,202,ATS
+17,Cadillac,203,BLS
+17,Cadillac,204,Brougham
+17,Cadillac,205,Catera
+17,Cadillac,206,CTS
+17,Cadillac,207,CTS-V
+17,Cadillac,208,DE Ville
+17,Cadillac,209,DTS
+17,Cadillac,210,Eldorado
+17,Cadillac,211,Escalade
+17,Cadillac,212,Evoq
+17,Cadillac,213,Fleetwood
+17,Cadillac,214,LSE
+17,Cadillac,215,Seville
+17,Cadillac,216,SRX
+17,Cadillac,217,STS
+17,Cadillac,218,Victoria
+17,Cadillac,219,XLR
+18,Caterham,220,Classic
+18,Caterham,221,Roadsport
+18,Caterham,222,Superlight
+19,Changan,223,CS35
+19,Changan,224,Eado
+19,Changan,225,Raeton
+19,Changan,226,SM-8
+19,Changan,227,Z-Chine
+20,ChangFeng,228,Flying PickUp
+20,ChangFeng,229,Flying SUV
+21,Chery,230,A3
+21,Chery,231,A5
+21,Chery,232,Amulet
+21,Chery,233,Bonus
+21,Chery,234,Bonus 3
+21,Chery,235,CrossEastar
+21,Chery,236,Fora
+21,Chery,237,Indis
+21,Chery,238,Kimo
+21,Chery,239,M11
+21,Chery,240,Oriental Son
+21,Chery,241,QQ
+21,Chery,242,QQ6
+21,Chery,243,Tiggo
+21,Chery,244,Tiggo 5
+21,Chery,245,Very
+22,Chevrolet,246,Alero
+22,Chevrolet,247,Astra
+22,Chevrolet,248,Astro
+22,Chevrolet,249,Avalanche
+22,Chevrolet,250,Aveo
+22,Chevrolet,251,Bel Air
+22,Chevrolet,252,Beretta
+22,Chevrolet,253,Blazer
+22,Chevrolet,254,C10
+22,Chevrolet,255,Camaro
+22,Chevrolet,256,Caprice
+22,Chevrolet,257,Captiva
+22,Chevrolet,258,Cavalier
+22,Chevrolet,259,Celebrity
+22,Chevrolet,260,Celta
+22,Chevrolet,261,Chevette
+22,Chevrolet,262,Classic
+22,Chevrolet,263,Cobalt
+22,Chevrolet,264,Colorado
+22,Chevrolet,265,Corsa
+22,Chevrolet,266,Corsica
+22,Chevrolet,267,Corvette
+22,Chevrolet,268,Cruze
+22,Chevrolet,269,Epica
+22,Chevrolet,270,Equinox
+22,Chevrolet,271,Evanda
+22,Chevrolet,272,Express
+22,Chevrolet,273,Geo Storm
+22,Chevrolet,274,HHR
+22,Chevrolet,275,Impala
+22,Chevrolet,276,Lacetti
+22,Chevrolet,277,Lanos
+22,Chevrolet,278,Lumina
+22,Chevrolet,279,LUV D-MAX
+22,Chevrolet,280,Malibu
+22,Chevrolet,281,Metro
+22,Chevrolet,282,Monte Carlo
+22,Chevrolet,283,Monza
+22,Chevrolet,284,MW
+22,Chevrolet,285,Niva
+22,Chevrolet,286,Nubira
+22,Chevrolet,287,Omega
+22,Chevrolet,288,Orlando
+22,Chevrolet,289,Prizm
+22,Chevrolet,290,Rezzo
+22,Chevrolet,291,S10
+22,Chevrolet,292,Sail
+22,Chevrolet,293,Silverado
+22,Chevrolet,294,Sonic
+22,Chevrolet,295,Spark
+22,Chevrolet,296,SSR
+22,Chevrolet,297,Starcraft
+22,Chevrolet,298,Suburban
+22,Chevrolet,299,Tahoe
+22,Chevrolet,300,Tavera
+22,Chevrolet,301,Tracker
+22,Chevrolet,302,TrailBlazer
+22,Chevrolet,303,Trans Sport
+22,Chevrolet,304,Traverse
+22,Chevrolet,305,Uplander
+22,Chevrolet,306,Van
+22,Chevrolet,307,Vectra
+22,Chevrolet,308,Venture
+22,Chevrolet,309,Viva
+22,Chevrolet,310,Volt
+22,Chevrolet,311,Zafira
+23,Chrysler,312,200
+23,Chrysler,313,300C
+23,Chrysler,314,300M
+23,Chrysler,315,Aspen
+23,Chrysler,316,Cirrus
+23,Chrysler,317,Concorde
+23,Chrysler,318,Crossfire
+23,Chrysler,319,Daytona Shelby
+23,Chrysler,320,Dynasty
+23,Chrysler,321,Fifth Avenue
+23,Chrysler,322,Grand Voyager
+23,Chrysler,323,Imperial
+23,Chrysler,324,Interpid
+23,Chrysler,325,LeBaron
+23,Chrysler,326,LHS
+23,Chrysler,327,Nassau
+23,Chrysler,328,Neon
+23,Chrysler,329,New Yorker
+23,Chrysler,330,Pacifica
+23,Chrysler,331,Prowler
+23,Chrysler,332,PT Cruiser
+23,Chrysler,333,Saratoga
+23,Chrysler,334,Sebring
+23,Chrysler,335,Stratus
+23,Chrysler,336,Town & Country
+23,Chrysler,337,Viper
+23,Chrysler,338,Vision
+23,Chrysler,339,Voyager
+24,Citroen,340,2 CV
+24,Citroen,341,Acadiane
+24,Citroen,342,Ami
+24,Citroen,343,AX
+24,Citroen,344,Berlingo
+24,Citroen,345,BX
+24,Citroen,346,C1 
+24,Citroen,347,C15
+24,Citroen,348,C2
+24,Citroen,349,C25
+24,Citroen,350,C3
+24,Citroen,351,C35
+24,Citroen,352,C3 Picasso
+24,Citroen,353,C4
+24,Citroen,354,C4 Aircross
+24,Citroen,355,C4 Picasso
+24,Citroen,356,C5
+24,Citroen,357,C6
+24,Citroen,358,C8
+24,Citroen,359,C-Crosser
+24,Citroen,360,C-Elysee
+24,Citroen,361,CX
+24,Citroen,362,C-Zero
+24,Citroen,363,DS2
+24,Citroen,364,DS3
+24,Citroen,365,DS4
+24,Citroen,366,DS5
+24,Citroen,367,DS9
+24,Citroen,368,Dyane
+24,Citroen,369,Evasion
+24,Citroen,370,Express
+24,Citroen,371,FAF
+24,Citroen,372,Grand C4 Picasso
+24,Citroen,373,GS
+24,Citroen,374,GSA
+24,Citroen,375,GT
+24,Citroen,376,Jumper
+24,Citroen,377,Jumpy
+24,Citroen,378,LN
+24,Citroen,379,LNA
+24,Citroen,380,Mehari
+24,Citroen,381,Nemo
+24,Citroen,382,Saxo
+24,Citroen,383,Synergie
+24,Citroen,384,Visa
+24,Citroen,385,Xanita
+24,Citroen,386,XM
+24,Citroen,387,Xsara
+24,Citroen,388,Xsara Picasso
+24,Citroen,389,ZX
+25,Dasia,390,1304
+25,Dasia,391,1310
+25,Dasia,392,1325
+25,Dasia,393,1410
+25,Dasia,394,Dokker
+25,Dasia,395,Duster
+25,Dasia,396,Lodgy
+25,Dasia,397,Logan
+25,Dasia,398,Nova
+25,Dasia,399,Sandero
+26,Dadi,400,City Leading
+26,Dadi,401,Shuttle
+26,Dadi,402,Smoothing
+27,Daewoo,403,Arcadia
+27,Daewoo,404,Brougham
+27,Daewoo,405,Charman
+27,Daewoo,406,Damas
+27,Daewoo,407,Espero
+27,Daewoo,408,Evanda
+27,Daewoo,409,G2X
+27,Daewoo,410,Gentra
+27,Daewoo,411,Istana
+27,Daewoo,412,Kalos
+27,Daewoo,413,Korando
+27,Daewoo,414,Labo
+27,Daewoo,415,Lacetti
+27,Daewoo,416,Lanos
+27,Daewoo,417,Leganza
+27,Daewoo,418,LeMans
+27,Daewoo,419,Magnus
+27,Daewoo,420,Matiz
+27,Daewoo,421,Musso
+27,Daewoo,422,Nexia
+27,Daewoo,423,Nubira
+27,Daewoo,424,Prince
+27,Daewoo,425,Racer
+27,Daewoo,426,Rezzo
+27,Daewoo,427,Sens
+27,Daewoo,428,Statesman
+27,Daewoo,429,Super Salon
+27,Daewoo,430,Tacuma
+27,Daewoo,431,Tico
+27,Daewoo,432,Tosca
+27,Daewoo,433,Winstorm
+28,Daihatsu,434,Altis
+28,Daihatsu,435,Applause
+28,Daihatsu,436,Atrai
+28,Daihatsu,437,Be-go
+28,Daihatsu,438,Boon
+28,Daihatsu,439,Ceria
+28,Daihatsu,440,Charade
+28,Daihatsu,441,Charmant
+28,Daihatsu,442,Coo
+28,Daihatsu,443,Copen
+28,Daihatsu,444,Cuore
+28,Daihatsu,445,Delta
+28,Daihatsu,446,Esse
+28,Daihatsu,447,Feroza
+28,Daihatsu,448,Leeza
+28,Daihatsu,449,Materia
+28,Daihatsu,450,MAX
+28,Daihatsu,451,Mira
+28,Daihatsu,452,Move
+28,Daihatsu,453,Naked
+28,Daihatsu,454,Opti
+28,Daihatsu,455,Perodua Viva
+28,Daihatsu,456,Pyzar
+28,Daihatsu,457,Rocky
+28,Daihatsu,458,Sirion
+28,Daihatsu,459,Sonica
+28,Daihatsu,460,Storia
+28,Daihatsu,461,Taft
+28,Daihatsu,462,Tanto
+28,Daihatsu,463,Terios
+28,Daihatsu,464,Trevis
+28,Daihatsu,465,Wildcat
+28,Daihatsu,466,Xenia
+28,Daihatsu,467,YRV
+29,Daimler,468,Coupe
+29,Daimler,469,Landaulette
+29,Daimler,470,Limousine
+29,Daimler,471,Super Eight
+29,Daimler,472,XJ
+30,Datsun,473,mi-DO
+30,Datsun,474,On-DO
+31,Derways,475,Antelope
+31,Derways,476,Aurora
+31,Derways,477,Cowboy
+31,Derways,478,Land Crown
+31,Derways,479,Plutus
+31,Derways,480,Saladin
+31,Derways,481,Shuttle
+32,Dodge,482,Avenger
+32,Dodge,483,Caliber
+32,Dodge,484,Caravan
+32,Dodge,485,Challenger
+32,Dodge,486,Charger
+32,Dodge,487,Dakota
+32,Dodge,488,Daytona  
+32,Dodge,489,Durango
+32,Dodge,490,Dynasty
+32,Dodge,491,Grand Caravan
+32,Dodge,492,Intrepid
+32,Dodge,493,Journey
+32,Dodge,494,Magnum
+32,Dodge,495,Monaco
+32,Dodge,496,Neon
+32,Dodge,497,Nitro
+32,Dodge,498,Ram
+32,Dodge,499,Shadow
+32,Dodge,500,Spirit
+32,Dodge,501,Stealth
+32,Dodge,502,Stratus
+32,Dodge,503,Viper
+33,Dong Feng,504,MPV
+33,Dong Feng,505,Oting
+33,Dong Feng,506,Rich
+33,Dong Feng,507,ZND
+34,Doninvest,508,Assol
+34,Doninvest,509,Kondor
+34,Doninvest,510,Orion
+35,Eagle,511,Premier
+35,Eagle,512,SS
+35,Eagle,513,Summit
+35,Eagle,514,Talon
+35,Eagle,515,Vision
+36,Ecomotors,516,Estrima Biro
+37,FAW,517,Admiral
+37,FAW,518,Besturn
+37,FAW,519,Besturn B50
+37,FAW,520,Besturn B70
+37,FAW,521,Bora
+37,FAW,522,City Golf
+37,FAW,523,Jetta
+37,FAW,524,Jinn
+37,FAW,525,Landmark
+37,FAW,526,V2
+37,FAW,527,V5
+37,FAW,528,Vela
+37,FAW,529,Vita
+37,FAW,530,Vizi
+38,Ferrari,531,208
+38,Ferrari,532,308
+38,Ferrari,533,328
+38,Ferrari,534,348
+38,Ferrari,535,355
+38,Ferrari,536,360 Modena
+38,Ferrari,537,360 Spider
+38,Ferrari,538,412
+38,Ferrari,539,430
+38,Ferrari,540,456 GT
+38,Ferrari,541,458 Italia
+38,Ferrari,542,458 Spider
+38,Ferrari,543,512
+38,Ferrari,544,550 Barchetta
+38,Ferrari,545,550 Maranello
+38,Ferrari,546,575 Maranello
+38,Ferrari,547,599 GTB Fiorano
+38,Ferrari,548,612 Scaglietti
+38,Ferrari,549,California
+38,Ferrari,550,Dino
+38,Ferrari,551,Enzo
+38,Ferrari,552,F12 berlinetta
+38,Ferrari,553,F355
+38,Ferrari,554,F40
+38,Ferrari,555,F430
+38,Ferrari,556,F430 Scuderia
+38,Ferrari,557,F430 Spider
+38,Ferrari,558,F50
+38,Ferrari,559,FF
+38,Ferrari,560,FXX
+38,Ferrari,561,Mondial
+38,Ferrari,562,Testarossa
+39,Fiat,563,124
+39,Fiat,564,126
+39,Fiat,565,127
+39,Fiat,566,131
+39,Fiat,567,500
+39,Fiat,568,600
+39,Fiat,569,Albea
+39,Fiat,570,Barchetta
+39,Fiat,571,Brava
+39,Fiat,572,Bravo
+39,Fiat,573,Cinquecento
+39,Fiat,574,Coupe
+39,Fiat,575,Croma
+39,Fiat,576,Doblo
+39,Fiat,577,Ducato
+39,Fiat,578,Duna
+39,Fiat,579,Fiorino
+39,Fiat,580,Freemont
+39,Fiat,581,Idea
+39,Fiat,582,Linea
+39,Fiat,583,Marea
+39,Fiat,584,Multipla
+39,Fiat,585,New 500
+39,Fiat,586,Palio
+39,Fiat,587,Panda
+39,Fiat,588,Punto
+39,Fiat,589,Regata
+39,Fiat,590,Ritmo
+39,Fiat,591,Scudo
+39,Fiat,592,Sedici
+39,Fiat,593,Seicento
+39,Fiat,594,Siena
+39,Fiat,595,Stilo
+39,Fiat,596,Strada
+39,Fiat,597,Tempra
+39,Fiat,598,Tipo
+39,Fiat,599,Ulysse
+39,Fiat,600,Uno
+39,Fiat,601,X1/9
+40,Ford,602,Aerostat
+40,Ford,603,Aspire
+40,Ford,604,Bronco
+40,Ford,605,Capri
+40,Ford,606,C-MAX
+40,Ford,607,Consul
+40,Ford,608,Contour
+40,Ford,609,Cougar
+40,Ford,610,Courier
+40,Ford,611,Crown Victoria
+40,Ford,612,Econoline
+40,Ford,613,Econovan
+40,Ford,614,EcoSport
+40,Ford,615,Edge
+40,Ford,616,Escape
+40,Ford,617,Escort
+40,Ford,618,Everest
+40,Ford,619,Excursion
+40,Ford,620,Expedition
+40,Ford,621,Exploer
+40,Ford,622,F150
+40,Ford,623,F250
+40,Ford,624,F350
+40,Ford,625,Festiva
+40,Ford,626,Fiesta
+40,Ford,627,Five Hundred
+40,Ford,628,Flex
+40,Ford,629,Focus
+40,Ford,630,Focus RS
+40,Ford,631,Focus ST
+40,Ford,632,Freestar
+40,Ford,633,Freestyle
+40,Ford,634,Fusion
+40,Ford,635,Fusion Hybrid
+40,Ford,636,Galaxy
+40,Ford,637,Granada
+40,Ford,638,Grand C-MAX
+40,Ford,639,GT
+40,Ford,640,Ka
+40,Ford,641,Kuga
+40,Ford,642,Laser
+40,Ford,643,Maverick
+40,Ford,644,Mondeo
+40,Ford,645,Mustang
+40,Ford,646,Orion
+40,Ford,647,Probe
+40,Ford,648,Puma
+40,Ford,649,Ranger
+40,Ford,650,Scorpio
+40,Ford,651,Shelby
+40,Ford,652,Sierra
+40,Ford,653,S-MAX
+40,Ford,654,Taunus
+40,Ford,655,Taurus
+40,Ford,656,Tempo
+40,Ford,657,Thunderbird
+40,Ford,658,Tourneo
+40,Ford,659,Tourneo Connect
+40,Ford,660,Transit
+40,Ford,661,Windstar
+41,Geely,662,CK
+41,Geely,663,Emgrand
+41,Geely,664,Emgrand X7
+41,Geely,665,GC6
+41,Geely,666,Merrie
+41,Geely,667,MK
+41,Geely,668,MK Cross
+41,Geely,669,Otaka
+41,Geely,670,Vision
+42,Geo,671,Metro
+42,Geo,672,Prizm
+42,Geo,673,Spectrum
+42,Geo,674,Storm
+42,Geo,675,Tracker
+43,GMC,676,Acadia
+43,GMC,677,Aventra
+43,GMC,678,Berlina
+43,GMC,679,Calais
+43,GMC,680,Canyon
+43,GMC,681,Caprice
+43,GMC,682,Commodore
+43,GMC,683,Cruze
+43,GMC,684,Envoy
+43,GMC,685,Jimmy
+43,GMC,686,Safari
+43,GMC,687,Savana
+43,GMC,688,Sierra
+43,GMC,689,Statesman
+43,GMC,690,Suburban
+43,GMC,691,Typhoon
+43,GMC,692,Vandura
+43,GMC,693,yukon
+44,Great Wall,694,Coolbear
+44,Great Wall,695,Cowry
+44,Great Wall,696,Deer
+44,Great Wall,697,Florid
+44,Great Wall,698,Hover
+44,Great Wall,699,Pegasus
+44,Great Wall,700,Peri
+44,Great Wall,701,Safe
+44,Great Wall,702,Sailor
+44,Great Wall,703,Sokol
+44,Great Wall,704,Wingle
+45,Hafei,705,Brio
+45,Hafei,706,Princip
+45,Hafei,707,Saibao
+45,Hafei,708,Sigma
+45,Hafei,709,Simbo
+46,Haima,710,2
+46,Haima,711,3
+46,Haima,712,7
+47,Honda,713,Accord
+47,Honda,714,Airwave
+47,Honda,715,Ascot
+47,Honda,716,Avancier
+47,Honda,717,Beat
+47,Honda,718,Capa
+47,Honda,719,City  
+47,Honda,720,Civic
+47,Honda,721,Concerto
+47,Honda,722,Crossroad
+47,Honda,723,Crosstour
+47,Honda,724,CR-V
+47,Honda,725,CRX
+47,Honda,726,CR-Z
+47,Honda,727,Donami
+47,Honda,728,Edix
+47,Honda,729,Element
+47,Honda,730,Elysion
+47,Honda,731,FCX Clarity
+47,Honda,732,Fit
+47,Honda,733,Fit Aria
+47,Honda,734,FR-V
+47,Honda,735,HR-V
+47,Honda,736,Insight
+47,Honda,737,Inspire
+47,Honda,738,Integra
+47,Honda,739,Jazz
+47,Honda,740,Lagreat
+47,Honda,741,Legend
+47,Honda,742,Life
+47,Honda,743,Logo
+47,Honda,744,MDX
+47,Honda,745,Mobilio
+47,Honda,746,NSX
+47,Honda,747,Odyssey
+47,Honda,748,Orthia
+47,Honda,749,Partner
+47,Honda,750,Passport
+47,Honda,751,Pilot
+47,Honda,752,Prelude
+47,Honda,753,Quintet
+47,Honda,754,Rafaga
+47,Honda,755,Ridgeline
+47,Honda,756,S2000
+47,Honda,757,Saber
+47,Honda,758,Shuttle
+47,Honda,759,SM-X
+47,Honda,760,Stepwgn
+47,Honda,761,Stream
+47,Honda,762,That S
+47,Honda,763,Today
+47,Honda,764,Torneo
+47,Honda,765,Vamos
+47,Honda,766,Vigor
+47,Honda,767,Z
+47,Honda,768,Zest
+48,Huanghai,769,Antelope
+48,Huanghai,770,Landscape
+48,Huanghai,771,Major
+48,Huanghai,772,Plutus
+49,Hummer,773,H1
+49,Hummer,774,H2
+49,Hummer,775,H3
+50,Hurtan,776,Albaycin
+50,Hurtan,777,Grand Albaycin
+51,Hyundai,778,Accent
+51,Hyundai,779,Atos
+51,Hyundai,780,Avante
+51,Hyundai,781,Centennial
+51,Hyundai,782,Coupe
+51,Hyundai,783,Dynasty
+51,Hyundai,784,Elantra
+51,Hyundai,785,Equus
+51,Hyundai,786,Excel
+51,Hyundai,787,Galloper
+51,Hyundai,788,Genesis
+51,Hyundai,789,Getz
+51,Hyundai,790,Grandeur
+51,Hyundai,791,H-1 (Grand Starex)
+51,Hyundai,792,i10
+51,Hyundai,793,i20
+51,Hyundai,794,i30
+51,Hyundai,795,i40
+51,Hyundai,796,ix20
+51,Hyundai,797,ix35
+51,Hyundai,798,ix55
+51,Hyundai,799,Lantra
+51,Hyundai,800,Lavita
+51,Hyundai,801,Marcia
+51,Hyundai,802,Matrix
+51,Hyundai,803,NF
+51,Hyundai,804,Pony
+51,Hyundai,805,Porter
+51,Hyundai,806,Santa Fe
+51,Hyundai,807,Santamo
+51,Hyundai,808,S-Coupe
+51,Hyundai,809,Solaris
+51,Hyundai,810,Sonata
+51,Hyundai,811,Starex
+51,Hyundai,812,Stellar
+51,Hyundai,813,Terracan
+51,Hyundai,814,Tiburon
+51,Hyundai,815,Trajet
+51,Hyundai,816,Tucson
+51,Hyundai,817,Tuscani
+51,Hyundai,818,Veloster
+51,Hyundai,819,Veracruz
+51,Hyundai,820,Verna
+51,Hyundai,821,XG
+52,Infiniti,822,EX25
+52,Infiniti,823,EX35
+52,Infiniti,824,EX37
+52,Infiniti,825,FX30
+52,Infiniti,826,FX35
+52,Infiniti,827,FX37
+52,Infiniti,828,FX45
+52,Infiniti,829,FX50
+52,Infiniti,830,FX56
+52,Infiniti,831,G20
+52,Infiniti,832,G25
+52,Infiniti,833,G35
+52,Infiniti,834,G37
+52,Infiniti,835,i30
+52,Infiniti,836,i35
+52,Infiniti,837,J30
+52,Infiniti,838,JX
+52,Infiniti,839,M25
+52,Infiniti,840,M30
+52,Infiniti,841,M35
+52,Infiniti,842,M37
+52,Infiniti,843,M45
+52,Infiniti,844,M56
+52,Infiniti,845,Q45
+52,Infiniti,846,Q50
+52,Infiniti,847,QX4
+52,Infiniti,848,QX56
+52,Infiniti,849,QX80
+53,Iran  Khordo,850,Pars
+53,Iran  Khordo,851,Samand
+53,Iran  Khordo,852,Soren
+54,Isuzu,853,Amigo
+54,Isuzu,854,Ascender
+54,Isuzu,855,Aska
+54,Isuzu,856,Axiom
+54,Isuzu,857,Bighorn
+54,Isuzu,858,Campo
+54,Isuzu,859,D-MAX
+54,Isuzu,860,Faster
+54,Isuzu,861,Filly
+54,Isuzu,862,Gemini
+54,Isuzu,863,Giga
+54,Isuzu,864,I-Mark
+54,Isuzu,865,Impulse
+54,Isuzu,866,MU
+54,Isuzu,867,Piazza
+54,Isuzu,868,Rodeo
+54,Isuzu,869,Trooper
+54,Isuzu,870,Vehi Cross
+54,Isuzu,871,Wizard
+55,Iveco,872,Daily
+56,JAC,873,Refine
+56,JAC,874,Rein
+57,Jaguar,875,E-type
+57,Jaguar,876,F-type
+57,Jaguar,877,S-type
+57,Jaguar,878,XF
+57,Jaguar,879,XFR
+57,Jaguar,880,XJ
+57,Jaguar,881,XJ220
+57,Jaguar,882,XJR
+57,Jaguar,883,XJS
+57,Jaguar,884,XK
+57,Jaguar,885,XKR
+57,Jaguar,886,XKR-S
+57,Jaguar,887,X-type
+58,Jeep,888,Cherokee
+58,Jeep,889,Commander
+58,Jeep,890,Compass
+58,Jeep,891,Grand Cherokee
+58,Jeep,892,Liberty
+58,Jeep,893,Patriot
+58,Jeep,894,Wrangler
+59,Jinbei,895,Haise
+60,JMC,896,Baodian
+61,KIA,897,Avella
+61,KIA,898,Besta
+61,KIA,899,Cadenza
+61,KIA,900,Capital
+61,KIA,901,Carens
+61,KIA,902,Carnival
+61,KIA,903,cee'd
+61,KIA,904,Cerato
+61,KIA,905,Clarus
+61,KIA,906,Concord
+61,KIA,907,Cosmos
+61,KIA,908,Elan 
+61,KIA,909,Enterprise
+61,KIA,910,GrandBird
+61,KIA,911,Joice
+61,KIA,912,K
+61,KIA,913,Magentis
+61,KIA,914,Mohave
+61,KIA,915,Opirus
+61,KIA,916,Optima
+61,KIA,917,Picanto
+61,KIA,918,Potentia
+61,KIA,919,Pregio
+61,KIA,920,Pride
+61,KIA,921,Quoris
+61,KIA,922,Retona
+61,KIA,923,Rio
+61,KIA,924,Sedona
+61,KIA,925,Sephia
+61,KIA,926,Shuma
+61,KIA,927,Sorento
+61,KIA,928,Soul
+61,KIA,929,Spectra
+61,KIA,930,Sportage
+61,KIA,931,Venga
+61,KIA,932,Visto
+61,KIA,933,X-Trek
+62,Lamborghini,934,Aventador
+62,Lamborghini,935,Countach
+62,Lamborghini,936,Diablo
+62,Lamborghini,937,Espada
+62,Lamborghini,938,Gallardo
+62,Lamborghini,939,Jalpa
+62,Lamborghini,940,LM002
+62,Lamborghini,941,Murcielago
+62,Lamborghini,942,Reventon
+63,Lancia,943,Dedra
+63,Lancia,944,Delta
+63,Lancia,945,Fulvia
+63,Lancia,946,Kappa
+63,Lancia,947,Lybra
+63,Lancia,948,Musa
+63,Lancia,949,Phedra
+63,Lancia,950,Prisma
+63,Lancia,951,Thema
+63,Lancia,952,Thesis
+63,Lancia,953,Trevi
+63,Lancia,954,Ypsilon
+63,Lancia,955,Zeta
+64,Land Rover,956,Defender
+64,Land Rover,957,Discovery
+64,Land Rover,958,Freelander
+64,Land Rover,959,Range Rover
+64,Land Rover,960,Range Rover Evoque
+64,Land Rover,961,Range Rover Sport
+64,Land Rover,962,Series I
+65,Landwind,963,SUV
+65,Landwind,964,X6
+66,Lexus,965,CT
+66,Lexus,966,ES 
+66,Lexus,967,GS
+66,Lexus,968,GX
+66,Lexus,969,HS
+66,Lexus,970,IS
+66,Lexus,971,IS F
+66,Lexus,972,LFA
+66,Lexus,973,LS
+66,Lexus,974,LX
+66,Lexus,975,NX
+66,Lexus,976,RX
+66,Lexus,977,SC
+67,Lifan,978,Breez
+67,Lifan,979,Cebrium
+67,Lifan,980,Celliya
+67,Lifan,981,Smily
+67,Lifan,982,Solano
+67,Lifan,983,X60
+68,Lincoln,984,Aviator
+68,Lincoln,985,Blackwood
+68,Lincoln,986,Continental
+68,Lincoln,987,LS
+68,Lincoln,988,Mark
+68,Lincoln,989,Mark LT
+68,Lincoln,990,MKX
+68,Lincoln,991,MKZ
+68,Lincoln,992,Navigator
+68,Lincoln,993,Town Car
+68,Lincoln,994,Zephyr
+69,Lotus,995,Eclat
+69,Lotus,996,Elan 
+69,Lotus,997,Elise
+69,Lotus,998,Elice S
+69,Lotus,999,Elite
+69,Lotus,1000,Esprit
+69,Lotus,1001,Europa
+69,Lotus,1002,Evora
+69,Lotus,1003,Evora S
+69,Lotus,1004,Excel
+69,Lotus,1005,Exige
+69,Lotus,1006,Exige S
+70,Luxgen,1007,5 Sedan
+70,Luxgen,1008,7 MPV
+70,Luxgen,1009,7 SUV
+71,Mahindra,1010,Armada
+71,Mahindra,1011,CJ
+71,Mahindra,1012,Commander
+71,Mahindra,1013,Marshal
+72,Marussia,1014,B1
+72,Marussia,1015,B2
+73,Maybach,1016,57
+73,Maybach,1017,57S
+73,Maybach,1018,62
+73,Maybach,1019,62S
+74,Mazda,1020,1000
+74,Mazda,1021,121
+74,Mazda,1022,1300
+74,Mazda,1023,2
+74,Mazda,1024,3
+74,Mazda,1025,323
+74,Mazda,1026,3 MPS
+74,Mazda,1027,5
+74,Mazda,1028,6
+74,Mazda,1029,616
+74,Mazda,1030,626
+74,Mazda,1031,6 MPS
+74,Mazda,1032,818
+74,Mazda,1033,929
+74,Mazda,1034,Atenza
+74,Mazda,1035,Axela
+74,Mazda,1036,Biante
+74,Mazda,1037,Bongo
+74,Mazda,1038,B-Series
+74,Mazda,1039,BT-50
+74,Mazda,1040,Business
+74,Mazda,1041,Capella
+74,Mazda,1042,Carol
+74,Mazda,1043,Clef
+74,Mazda,1044,Cronos
+74,Mazda,1045,CX-5
+74,Mazda,1046,CX-7
+74,Mazda,1047,CX-9
+74,Mazda,1048,Demio
+74,Mazda,1049,Efini
+74,Mazda,1050,Eunos
+74,Mazda,1051,Eunos Cosmo
+74,Mazda,1052,Familia
+74,Mazda,1053,Lantis
+74,Mazda,1054,Laputa
+74,Mazda,1055,Levante
+74,Mazda,1056,Luce
+74,Mazda,1057,Milenia
+74,Mazda,1058,MPV
+74,Mazda,1059,MX-3
+74,Mazda,1060,MX-5
+74,Mazda,1061,MX-6
+74,Mazda,1062,Navajo
+74,Mazda,1063,Premacy
+74,Mazda,1064,Proceed
+74,Mazda,1065,Protege
+74,Mazda,1066,Revue
+74,Mazda,1067,Roadster
+74,Mazda,1068,Rustler
+74,Mazda,1069,RX-7
+74,Mazda,1070,RX-8
+74,Mazda,1071,Scrum
+74,Mazda,1072,Sentia
+74,Mazda,1073,Spiano
+74,Mazda,1074,Tribute
+74,Mazda,1075,Vantrend
+74,Mazda,1076,Verisa
+74,Mazda,1077,Xedos 6
+74,Mazda,1078,Xedos 9
+75,Mercedes-Benz,1079,A-класс
+75,Mercedes-Benz,1080,A-класс AMG
+75,Mercedes-Benz,1081,Brabus
+75,Mercedes-Benz,1082,B-класс
+75,Mercedes-Benz,1083,Citan
+75,Mercedes-Benz,1084,CLA-класс
+75,Mercedes-Benz,1085,CLA-класс AMG
+75,Mercedes-Benz,1086,CLC-класс
+75,Mercedes-Benz,1087,CLK-класс
+75,Mercedes-Benz,1088,CLR-класс
+75,Mercedes-Benz,1089,CLS-класс
+75,Mercedes-Benz,1090,CLS-класс AMG
+75,Mercedes-Benz,1091,CL-класс
+75,Mercedes-Benz,1092,CL-класс AMG
+75,Mercedes-Benz,1093,C-класс
+75,Mercedes-Benz,1094,C-класс AMG
+75,Mercedes-Benz,1095,E-класс
+75,Mercedes-Benz,1096,E-класс AMG
+75,Mercedes-Benz,1097,GLA-класс
+75,Mercedes-Benz,1098,GLK-класс
+75,Mercedes-Benz,1099,GL-класс
+75,Mercedes-Benz,1100,GL-класс AMG
+75,Mercedes-Benz,1101,G-класс
+75,Mercedes-Benz,1102,G-класс AMG
+75,Mercedes-Benz,1103,ML-класс
+75,Mercedes-Benz,1104,M-класс
+75,Mercedes-Benz,1105,M-класс AMG
+75,Mercedes-Benz,1106,Pullman
+75,Mercedes-Benz,1107,R-класс
+75,Mercedes-Benz,1108,R-класс AMG
+75,Mercedes-Benz,1109,SLK-класс
+75,Mercedes-Benz,1110,SLK-класс AMG
+75,Mercedes-Benz,1111,SLR McLaren
+75,Mercedes-Benz,1112,SLS-класс
+75,Mercedes-Benz,1113,SLS-класс AMG
+75,Mercedes-Benz,1114,SL-класс
+75,Mercedes-Benz,1115,SL-класс AMG
+75,Mercedes-Benz,1116,Sprinter
+75,Mercedes-Benz,1117,Sprinter Classic
+75,Mercedes-Benz,1118,S-класс
+75,Mercedes-Benz,1119,S-класс AMG
+75,Mercedes-Benz,1120,Vaneo
+75,Mercedes-Benz,1121,Vario
+75,Mercedes-Benz,1122,Viano
+75,Mercedes-Benz,1123,Vito
+75,Mercedes-Benz,1124,V-класс
+75,Mercedes-Benz,1125,W123
+75,Mercedes-Benz,1126,W124
+76,Mercury,1127,Capri
+76,Mercury,1128,Cougar
+76,Mercury,1129,Grand Marquis
+76,Mercury,1130,Marauder
+76,Mercury,1131,Mariner
+76,Mercury,1132,Marquis
+76,Mercury,1133,Milan
+76,Mercury,1134,Montego
+76,Mercury,1135,Monterey
+76,Mercury,1136,Mountaineer
+76,Mercury,1137,Mystique
+76,Mercury,1138,Sable
+76,Mercury,1139,Topaz
+76,Mercury,1140,Tracer
+76,Mercury,1141,Villager
+77,Metrocab,1142,Taxi
+78,MG,1143,F 
+78,MG,1144,TF
+78,MG,1145,Xpower SV
+78,MG,1146,ZR
+78,MG,1147,ZS
+78,MG,1148,ZT
+79,MINI,1149,Cooper
+79,MINI,1150,Cooper Clubman
+79,MINI,1151,Cooper Clubvan
+79,MINI,1152,Cooper Countryman
+79,MINI,1153,Cooper Paceman
+79,MINI,1154,Cooper  S
+79,MINI,1155,Cooper S Clubman
+79,MINI,1156,Cooper S Countryman
+79,MINI,1157,Cooper S Paceman
+79,MINI,1158,John Cooper Works
+79,MINI,1159,John Cooper Works Clubman
+79,MINI,1160,John Cooper Works Countryman
+79,MINI,1161,John Cooper Works Paceman
+79,MINI,1162,One
+79,MINI,1163,One Clubman
+79,MINI,1164,One Clubvan
+79,MINI,1165,One Countryman
+80,Mitsubishi,1166,3000GT
+80,Mitsubishi,1167,Airtrek
+80,Mitsubishi,1168,Aspire
+80,Mitsubishi,1169,ASX
+80,Mitsubishi,1170,Carisma
+80,Mitsubishi,1171,Celeste
+80,Mitsubishi,1172,Challenger
+80,Mitsubishi,1173,Chariot
+80,Mitsubishi,1174,Colt
+80,Mitsubishi,1175,Cordia
+80,Mitsubishi,1176,Debonair
+80,Mitsubishi,1177,Delica
+80,Mitsubishi,1178,Diamante
+80,Mitsubishi,1179,Dingo
+80,Mitsubishi,1180,Dion
+80,Mitsubishi,1181,Eclipse
+80,Mitsubishi,1182,EK Wagon
+80,Mitsubishi,1183,Emeraude
+80,Mitsubishi,1184,Endevador
+80,Mitsubishi,1185,Eterna
+80,Mitsubishi,1186,Expro LRV
+80,Mitsubishi,1187,FTO
+80,Mitsubishi,1188,Fuso Canter
+80,Mitsubishi,1189,Galant
+80,Mitsubishi,1190,Grandis
+80,Mitsubishi,1191,GTO
+80,Mitsubishi,1192,I-MiEV
+80,Mitsubishi,1193,Jeep
+80,Mitsubishi,1194,L200
+80,Mitsubishi,1195,Lancer
+80,Mitsubishi,1196,Lancer Evolution
+80,Mitsubishi,1197,Legnum
+80,Mitsubishi,1198,Libero
+80,Mitsubishi,1199,Minica
+80,Mitsubishi,1200,Mirage
+80,Mitsubishi,1201,Montero
+80,Mitsubishi,1202,OutLander
+80,Mitsubishi,1203,Pajero
+80,Mitsubishi,1204,Pajero Sport
+80,Mitsubishi,1205,Pistachio
+80,Mitsubishi,1206,Proudia
+80,Mitsubishi,1207,Raider
+80,Mitsubishi,1208,RVR
+80,Mitsubishi,1209,Santamo
+80,Mitsubishi,1210,Sapporo
+80,Mitsubishi,1211,Sigma
+80,Mitsubishi,1212,Space Gear
+80,Mitsubishi,1213,Space Runner
+80,Mitsubishi,1214,Space Star
+80,Mitsubishi,1215,Space Wagon
+80,Mitsubishi,1216,Starion
+80,Mitsubishi,1217,Toppo
+80,Mitsubishi,1218,Town BOX
+80,Mitsubishi,1219,Tredia
+81,Mitsuoka,1220,Galue
+81,Mitsuoka,1221,Le-Seyde
+81,Mitsuoka,1222,Nouera
+81,Mitsuoka,1223,Ryoga
+82,Morgan,1224,Aero
+82,Morgan,1225,Plus 4
+82,Morgan,1226,Plus 8
+82,Morgan,1227,V6
+83,Morris,1228,Marina
+84,Nissan,1229,100NX
+84,Nissan,1230,180SX
+84,Nissan,1231,200SX
+84,Nissan,1232,240SX
+84,Nissan,1233,280ZX
+84,Nissan,1234,300ZX
+84,Nissan,1235,350Z
+84,Nissan,1236,370Z
+84,Nissan,1237,AD
+84,Nissan,1238,Almera
+84,Nissan,1239,Almera Classic
+84,Nissan,1240,Altima
+84,Nissan,1241,Armada
+84,Nissan,1242,Avenir
+84,Nissan,1243,Bassara
+84,Nissan,1244,Bluebird
+84,Nissan,1245,Cedric
+84,Nissan,1246,Cefiro
+84,Nissan,1247,Cherry
+84,Nissan,1248,Cima
+84,Nissan,1249,Crew
+84,Nissan,1250,Cube
+84,Nissan,1251,Datsun
+84,Nissan,1252,Elgrand
+84,Nissan,1253,Expert
+84,Nissan,1254,Fairlady
+84,Nissan,1255,Figaro
+84,Nissan,1256,Frontier
+84,Nissan,1257,Fuga
+84,Nissan,1258,Gloria
+84,Nissan,1259,GT-R
+84,Nissan,1260,Juke
+84,Nissan,1261,King Cab
+84,Nissan,1262,Kix
+84,Nissan,1263,Lafesta
+84,Nissan,1264,Langley
+84,Nissan,1265,Largo
+84,Nissan,1266,Laurel
+84,Nissan,1267,Leaf
+84,Nissan,1268,Leopard
+84,Nissan,1269,Liberty
+84,Nissan,1270,Lucino
+84,Nissan,1271,March
+84,Nissan,1272,Maxima
+84,Nissan,1273,Micra
+84,Nissan,1274,Mistral
+84,Nissan,1275,Moco
+84,Nissan,1276,Murano
+84,Nissan,1277,Navara
+84,Nissan,1278,Note
+84,Nissan,1279,NP300
+84,Nissan,1280,NX Coupe
+84,Nissan,1281,Otti
+84,Nissan,1282,Pathfinder
+84,Nissan,1283,Patrol
+84,Nissan,1284,Pick UP
+84,Nissan,1285,Prairie
+84,Nissan,1286,Presage
+84,Nissan,1287,Presea
+84,Nissan,1288,President
+84,Nissan,1289,Primera
+84,Nissan,1290,Pulsar
+84,Nissan,1291,Qashqai
+84,Nissan,1292,Qashqai+2
+84,Nissan,1293,Quest
+84,Nissan,1294,Rasheen
+84,Nissan,1295,R Nessa
+84,Nissan,1296,Rogue
+84,Nissan,1297,Safari
+84,Nissan,1298,Sentra
+84,Nissan,1299,Sentra
+84,Nissan,1300,Serena
+84,Nissan,1301,Silvia
+84,Nissan,1302,Skyline
+84,Nissan,1303,Stagea
+84,Nissan,1304,Stanza
+84,Nissan,1305,Sunny
+84,Nissan,1306,Teana
+84,Nissan,1307,Terrano
+84,Nissan,1308,Tiida
+84,Nissan,1309,Tino
+84,Nissan,1310,Titan
+84,Nissan,1311,Vanette
+84,Nissan,1312,Versa
+84,Nissan,1313,Wingroad
+84,Nissan,1314,X-Terra
+84,Nissan,1315,X-Trail
+85,Noble,1316,M10
+85,Noble,1317,M12
+85,Noble,1318,M14
+85,Noble,1319,M15
+85,Noble,1320,M400
+85,Noble,1321,M600
+86,Oldsmobile,1322,Achieva
+86,Oldsmobile,1323,Alero
+86,Oldsmobile,1324,Aurora
+86,Oldsmobile,1325,Bravada
+86,Oldsmobile,1326,Cutlass
+86,Oldsmobile,1327,Eighty-Eight
+86,Oldsmobile,1328,Intrique
+86,Oldsmobile,1329,Ninety-Eight
+86,Oldsmobile,1330,Silhouette
+87,Opel,1331,Admiral
+87,Opel,1332,Agila
+87,Opel,1333,Antara
+87,Opel,1334,Ascona
+87,Opel,1335,Astra
+87,Opel,1336,Astra GTC
+87,Opel,1337,Astra OPC
+87,Opel,1338,Calibra
+87,Opel,1339,Campo
+87,Opel,1340,Combo
+87,Opel,1341,Commodore
+87,Opel,1342,Corsa
+87,Opel,1343,Corsa OPC
+87,Opel,1344,Diplomat
+87,Opel,1345,Frontera
+87,Opel,1346,GT 
+87,Opel,1347,Insignia
+87,Opel,1348,Insignia OPC
+87,Opel,1349,Kadett
+87,Opel,1350,Manta
+87,Opel,1351,Meriva
+87,Opel,1352,Mokka
+87,Opel,1353,Monterey
+87,Opel,1354,Monza
+87,Opel,1355,Movano
+87,Opel,1356,Omega
+87,Opel,1357,Rekord
+87,Opel,1358,Senator
+87,Opel,1359,Signum
+87,Opel,1360,Sintra
+87,Opel,1361,Speedster
+87,Opel,1362,Tigra
+87,Opel,1363,Vectra
+87,Opel,1364,Vita
+87,Opel,1365,Vivaro
+87,Opel,1366,Zafira
+88,Pagani,1367,Huayra
+88,Pagani,1368,Zonda
+89,Peugeot,1369,1007
+89,Peugeot,1370,104
+89,Peugeot,1371,106
+89,Peugeot,1372,107
+89,Peugeot,1373,2008
+89,Peugeot,1374,204
+89,Peugeot,1375,205
+89,Peugeot,1376,206
+89,Peugeot,1377,207
+89,Peugeot,1378,208
+89,Peugeot,1379,3008
+89,Peugeot,1380,301
+89,Peugeot,1381,304
+89,Peugeot,1382,305
+89,Peugeot,1383,306
+89,Peugeot,1384,307
+89,Peugeot,1385,308
+89,Peugeot,1386,309
+89,Peugeot,1387,4007
+89,Peugeot,1388,4008
+89,Peugeot,1389,405
+89,Peugeot,1390,406
+89,Peugeot,1391,407
+89,Peugeot,1392,408
+89,Peugeot,1393,5008
+89,Peugeot,1394,504
+89,Peugeot,1395,505
+89,Peugeot,1396,508
+89,Peugeot,1397,604
+89,Peugeot,1398,605
+89,Peugeot,1399,607
+89,Peugeot,1400,806
+89,Peugeot,1401,807
+89,Peugeot,1402,Bipper
+89,Peugeot,1403,Expert
+89,Peugeot,1404,Partner
+89,Peugeot,1405,RCZ
+90,Plymouth,1406,Acclaim
+90,Plymouth,1407,Breeze
+90,Plymouth,1408,Caravelle
+90,Plymouth,1409,Grand Voyager
+90,Plymouth,1410,Laser
+90,Plymouth,1411,Neon
+90,Plymouth,1412,Prowler
+90,Plymouth,1413,Sundance
+90,Plymouth,1414,Voyager
+91,Pontiac,1415,6000
+91,Pontiac,1416,Aztec
+91,Pontiac,1417,Bonneville
+91,Pontiac,1418,Fiero
+91,Pontiac,1419,Firebird
+91,Pontiac,1420,G4
+91,Pontiac,1421,G5
+91,Pontiac,1422,G6
+91,Pontiac,1423,G8
+91,Pontiac,1424,Grand AM
+91,Pontiac,1425,Grand Prix
+91,Pontiac,1426,GTO
+91,Pontiac,1427,LeMans
+91,Pontiac,1428,Montana
+91,Pontiac,1429,Parisienne
+91,Pontiac,1430,Phoenix
+91,Pontiac,1431,Solstice
+91,Pontiac,1432,Sunbird
+91,Pontiac,1433,Sunfire
+91,Pontiac,1434,Tempest
+91,Pontiac,1435,Torrent
+91,Pontiac,1436,Trans Sport
+91,Pontiac,1437,Vibe
+92,Porsche,1438,911 Carrera
+92,Porsche,1439,911 Carrera 4
+92,Porsche,1440,911 Carrera 4S
+92,Porsche,1441,911 Carrera S
+92,Porsche,1442,911 GT2
+92,Porsche,1443,911 GT2 RS
+92,Porsche,1444,911 GT3
+92,Porsche,1445,911 GT3 RS
+92,Porsche,1446,911 GT3 RS 4.0
+92,Porsche,1447,911 Tagra 4
+92,Porsche,1448,911 Tagra 4S
+92,Porsche,1449,911 Turbo
+92,Porsche,1450,911 Turbo S
+92,Porsche,1451,918 Spyder
+92,Porsche,1452,924
+92,Porsche,1453,928
+92,Porsche,1454,944
+92,Porsche,1455,959
+92,Porsche,1456,968
+92,Porsche,1457,Boxter
+92,Porsche,1458,Boxter S
+92,Porsche,1459,Boxter Spyder
+92,Porsche,1460,Carrera GT
+92,Porsche,1461,Cayenne
+92,Porsche,1462,Cayenne GTS
+92,Porsche,1463,Cayenne S
+92,Porsche,1464,Cayenne Turbo
+92,Porsche,1465,Cayenne Turbo S
+92,Porsche,1466,Cayman
+92,Porsche,1467,Cayman S
+92,Porsche,1468,Panamera 
+92,Porsche,1469,Panamera 4
+92,Porsche,1470,Panamera 4S
+92,Porsche,1471,Panamera GTS
+92,Porsche,1472,Panamera S
+92,Porsche,1473,Panamera Turbo
+93,Proton,1474,Juara
+93,Proton,1475,Perdana
+93,Proton,1476,Persona
+93,Proton,1477,Saga
+93,Proton,1478,Saloon
+93,Proton,1479,Waja
+94,Renault,1480,11
+94,Renault,1481,12
+94,Renault,1482,14
+94,Renault,1483,15
+94,Renault,1484,16
+94,Renault,1485,17
+94,Renault,1486,18
+94,Renault,1487,19
+94,Renault,1488,20
+94,Renault,1489,21
+94,Renault,1490,25
+94,Renault,1491,30
+94,Renault,1492,4
+94,Renault,1493,5
+94,Renault,1494,6
+94,Renault,1495,9
+94,Renault,1496,Avantime
+94,Renault,1497,Clio
+94,Renault,1498,Clio RS
+94,Renault,1499,Duster
+94,Renault,1500,Espace
+94,Renault,1501,Estafette
+94,Renault,1502,Fluence
+94,Renault,1503,Fuego
+94,Renault,1504,Grand Scenic
+94,Renault,1505,Kangoo
+94,Renault,1506,Koleos
+94,Renault,1507,Laguna
+94,Renault,1508,Latitude
+94,Renault,1509,Logan
+94,Renault,1510,Master
+94,Renault,1511,Medalion
+94,Renault,1512,Megane
+94,Renault,1513,Megane RS
+94,Renault,1514,Modus
+94,Renault,1515,Rapid
+94,Renault,1516,Rodeo
+94,Renault,1517,Safrane
+94,Renault,1518,Sandero
+94,Renault,1519,Sandero Stepway
+94,Renault,1520,Scenic
+94,Renault,1521,Sport Spider
+94,Renault,1522,Super 5
+94,Renault,1523,Symbol
+94,Renault,1524,Trafic
+94,Renault,1525,Twingo
+94,Renault,1526,Twizy
+94,Renault,1527,Vel Satis
+95,Rolls-Royce,1528,Corniche Cabrio
+95,Rolls-Royce,1529,Ghost
+95,Rolls-Royce,1530,Park Ward
+95,Rolls-Royce,1531,Phantom
+95,Rolls-Royce,1532,Silver Seraph
+95,Rolls-Royce,1533,Silver Spur
+95,Rolls-Royce,1534,Wraith
+96,Ronart,1535,Lighting
+97,Rover,1536,100
+97,Rover,1537,200
+97,Rover,1538,25
+97,Rover,1539,400
+97,Rover,1540,45
+97,Rover,1541,600
+97,Rover,1542,75
+97,Rover,1543,800
+97,Rover,1544,Maestro
+97,Rover,1545,MGF
+97,Rover,1546,Mini MK
+97,Rover,1547,Montego
+97,Rover,1548,Streetwise
+98,Saab,1549,90
+98,Saab,1550,900
+98,Saab,1551,9000
+98,Saab,1552,9-2X
+98,Saab,1553,9-3
+98,Saab,1554,9-4
+98,Saab,1555,95
+98,Saab,1556,9-5
+98,Saab,1557,96
+98,Saab,1558,9-7X
+98,Saab,1559,99
+99,Saleen,1560,S7
+100,Saturn,1561,Astra
+100,Saturn,1562,Aura
+100,Saturn,1563,ION
+100,Saturn,1564,LS
+100,Saturn,1565,LW
+100,Saturn,1566,Outlook
+100,Saturn,1567,Relay
+100,Saturn,1568,SC 
+100,Saturn,1569,Sky 
+100,Saturn,1570,SL
+100,Saturn,1571,SW
+100,Saturn,1572,VUE
+101,Scion,1573,tC
+101,Scion,1574,xA
+101,Scion,1575,xB
+101,Scion,1576,xD
+102,SEAT,1577,Alhambra
+102,SEAT,1578,Altea
+102,SEAT,1579,Altea Freetrack
+102,SEAT,1580,Altea XL
+102,SEAT,1581,Arosa
+102,SEAT,1582,Cordoba
+102,SEAT,1583,Exeo
+102,SEAT,1584,Fura
+102,SEAT,1585,Ibiza
+102,SEAT,1586,Ibiza FR
+102,SEAT,1587,Leon
+102,SEAT,1588,Leon FR
+102,SEAT,1589,Malaga
+102,SEAT,1590,Marbella
+102,SEAT,1591,Mii
+102,SEAT,1592,Ronda
+102,SEAT,1593,Terra
+102,SEAT,1594,Toledo
+103,Shuanghuan,1595,Sceo
+104,Skoda,1596,Citigo
+104,Skoda,1597,Fabia
+104,Skoda,1598,Fabia RS
+104,Skoda,1599,Fabia Scout
+104,Skoda,1600,Favorit
+104,Skoda,1601,Felicia
+104,Skoda,1602,Octavia
+104,Skoda,1603,Octavia RS
+104,Skoda,1604,Praktik
+104,Skoda,1605,Rapid
+104,Skoda,1606,Roomster
+104,Skoda,1607,Superb
+104,Skoda,1608,Yeti
+105,SMA,1609,C32
+105,SMA,1610,C51
+105,SMA,1611,C52
+105,SMA,1612,C61
+105,SMA,1613,C81
+106,Smart,1614,Crossblade
+106,Smart,1615,Forfour
+106,Smart,1616,Fortwo
+106,Smart,1617,Roadster
+107,Spyker,1618,C8 
+108,SsangYong,1619,Actyon
+108,SsangYong,1620,Chairman
+108,SsangYong,1621,Family
+108,SsangYong,1622,Istana
+108,SsangYong,1623,Kalista
+108,SsangYong,1624,Korando
+108,SsangYong,1625,Kyron
+108,SsangYong,1626,Musso
+108,SsangYong,1627,Rexton
+108,SsangYong,1628,Rodius
+108,SsangYong,1629,Stavic
+108,SsangYong,1630,Tager
+109,Subaru,1631,Alcyone
+109,Subaru,1632,Baja
+109,Subaru,1633,Bistro
+109,Subaru,1634,BRZ
+109,Subaru,1635,Dex
+109,Subaru,1636,Dias
+109,Subaru,1637,Domingo
+109,Subaru,1638,Exiga
+109,Subaru,1639,Forester
+109,Subaru,1640,Impreza
+109,Subaru,1641,Justy
+109,Subaru,1642,Legacy
+109,Subaru,1643,Leone
+109,Subaru,1644,Libero
+109,Subaru,1645,Lucra
+109,Subaru,1646,Outback
+109,Subaru,1647,Pleo
+109,Subaru,1648,R1
+109,Subaru,1649,R2
+109,Subaru,1650,Sambar
+109,Subaru,1651,Stella
+109,Subaru,1652,SVX
+109,Subaru,1653,Traviq
+109,Subaru,1654,Trezia
+109,Subaru,1655,Tribeca
+109,Subaru,1656,Vivio
+109,Subaru,1657,WRX
+109,Subaru,1658,WRX STI
+109,Subaru,1659,XT
+109,Subaru,1660,XV
+110,Suzuki,1661,Aerio
+110,Suzuki,1662,Alto
+110,Suzuki,1663,Baleno
+110,Suzuki,1664,Cappuccino
+110,Suzuki,1665,Cevro
+110,Suzuki,1666,Cultus Wagon
+110,Suzuki,1667,Escudo
+110,Suzuki,1668,Every
+110,Suzuki,1669,Every Landy
+110,Suzuki,1670,Forenza
+110,Suzuki,1671,Grand Escudo
+110,Suzuki,1672,Grand Vitara
+110,Suzuki,1673,Ignis
+110,Suzuki,1674,Jimny
+110,Suzuki,1675,Kei
+110,Suzuki,1676,Kizashi
+110,Suzuki,1677,Liana
+110,Suzuki,1678,MR Wagon
+110,Suzuki,1679,Reno
+110,Suzuki,1680,Samurai
+110,Suzuki,1681,Sidekick
+110,Suzuki,1682,Splash
+110,Suzuki,1683,Swift
+110,Suzuki,1684,SX4
+110,Suzuki,1685,Verona
+110,Suzuki,1686,Vitara
+110,Suzuki,1687,Wagon R
+110,Suzuki,1688,X-90
+110,Suzuki,1689,XL7
+111,Talbot,1690,Alpine
+111,Talbot,1691,Avenger
+111,Talbot,1692,Express
+111,Talbot,1693,Horizon
+111,Talbot,1694,Matra Bagheera
+111,Talbot,1695,Minx
+111,Talbot,1696,Murena
+111,Talbot,1697,Rancho
+111,Talbot,1698,Rapier
+111,Talbot,1699,Samba 
+111,Talbot,1700,Simca
+111,Talbot,1701,Solara
+111,Talbot,1702,Tagora
+112,Tata,1703,Aria
+112,Tata,1704,Estate
+112,Tata,1705,Indica
+112,Tata,1706,Indigo
+112,Tata,1707,Mint
+112,Tata,1708,Safari
+112,Tata,1709,Sierra
+112,Tata,1710,Sumo
+113,Tesla,1711,Model S
+113,Tesla,1712,Model X
+113,Tesla,1713,Roadster
+114,Tianma,1714,Centuri
+115,Tianye,1715,Admiral
+116,Toyota,1716,4runner
+116,Toyota,1717,Allex
+116,Toyota,1718,Allion
+116,Toyota,1719,Alphard
+116,Toyota,1720,Altezza
+116,Toyota,1721,Aristo
+116,Toyota,1722,Aurion
+116,Toyota,1723,Auris
+116,Toyota,1724,Avalon
+116,Toyota,1725,Avensis
+116,Toyota,1726,Aygo
+116,Toyota,1727,BB
+116,Toyota,1728,Belta
+116,Toyota,1729,Blade
+116,Toyota,1730,Bizzard
+116,Toyota,1731,Brevis
+116,Toyota,1732,Caldina
+116,Toyota,1733,Cami
+116,Toyota,1734,Camry
+116,Toyota,1735,Carib
+116,Toyota,1736,Carina
+116,Toyota,1737,Cavalier
+116,Toyota,1738,Celica
+116,Toyota,1739,Celsior
+116,Toyota,1740,Century
+116,Toyota,1741,Chaser
+116,Toyota,1742,Corolla
+116,Toyota,1743,Corona
+116,Toyota,1744,Corsa
+116,Toyota,1745,Cressida
+116,Toyota,1746,Cresta
+116,Toyota,1747,Crown
+116,Toyota,1748,Curren
+116,Toyota,1749,Cynos
+116,Toyota,1750,Duet
+116,Toyota,1751,Echo
+116,Toyota,1752,Estima
+116,Toyota,1753,FJ Cruiser
+116,Toyota,1754,Fortuner
+116,Toyota,1755,Funcargo
+116,Toyota,1756,Gaia
+116,Toyota,1757,Grand Hiace
+116,Toyota,1758,Granvia
+116,Toyota,1759,GT 86
+116,Toyota,1760,Harrier
+116,Toyota,1761,Hiace
+116,Toyota,1762,Highlander
+116,Toyota,1763,Hilux
+116,Toyota,1764,Innova
+116,Toyota,1765,Ipsum
+116,Toyota,1766,iQ
+116,Toyota,1767,Isis
+116,Toyota,1768,Ist 
+116,Toyota,1769,Kluger
+116,Toyota,1770,Land Cruiser
+116,Toyota,1771,Land Cruiser Prado
+116,Toyota,1772,Lite Ace
+116,Toyota,1773,Mark ll
+116,Toyota,1774,Mark X
+116,Toyota,1775,Master Ace
+116,Toyota,1776,Matrix
+116,Toyota,1777,Mega Cruiser
+116,Toyota,1778,MR 2
+116,Toyota,1779,MR-S
+116,Toyota,1780,Nadia
+116,Toyota,1781,Noah
+116,Toyota,1782,Opa
+116,Toyota,1783,Origin
+116,Toyota,1784,Paseo
+116,Toyota,1785,Passo
+116,Toyota,1786,Passo Sette
+116,Toyota,1787,Picnic
+116,Toyota,1788,Platz
+116,Toyota,1789,Porte
+116,Toyota,1790,Premio
+116,Toyota,1791,Previa
+116,Toyota,1792,Prius
+116,Toyota,1793,Probox
+116,Toyota,1794,Progres
+116,Toyota,1795,Pronard
+116,Toyota,1796,Ractis
+116,Toyota,1797,Raum
+116,Toyota,1798,RAV4
+116,Toyota,1799,Regius
+116,Toyota,1800,Rush
+116,Toyota,1801,Scepter
+116,Toyota,1802,Sequoia
+116,Toyota,1803,Sera
+116,Toyota,1804,Sienna
+116,Toyota,1805,Sienta
+116,Toyota,1806,Soarer
+116,Toyota,1807,Solara
+116,Toyota,1808,Soluna
+116,Toyota,1809,Sparky
+116,Toyota,1810,Sprinter
+116,Toyota,1811,Starlet
+116,Toyota,1812,Succeed
+116,Toyota,1813,Supra
+116,Toyota,1814,Tacoma
+116,Toyota,1815,Tercel
+116,Toyota,1816,Town Ace
+116,Toyota,1817,Tundra
+116,Toyota,1818,Urban Cruiser
+116,Toyota,1819,Vellfire
+116,Toyota,1820,Venza
+116,Toyota,1821,Verossa
+116,Toyota,1822,Verso
+116,Toyota,1823,Vios
+116,Toyota,1824,Vista
+116,Toyota,1825,Vitz
+116,Toyota,1826,Voltz
+116,Toyota,1827,Voxy
+116,Toyota,1828,Will
+116,Toyota,1829,Windom
+116,Toyota,1830,Wish
+116,Toyota,1831,Yaris
+117,Trabant,1832,1.1
+117,Trabant,1833,P601
+118,Volkswagen,1834,Amarok
+118,Volkswagen,1835,Beetle
+118,Volkswagen,1836,Bora
+118,Volkswagen,1837,Caddy
+118,Volkswagen,1838,California
+118,Volkswagen,1839,Caravelle
+118,Volkswagen,1840,Corrado
+118,Volkswagen,1841,Crafter
+118,Volkswagen,1842,CrossPolo
+118,Volkswagen,1843,Derby
+118,Volkswagen,1844,Eos
+118,Volkswagen,1845,Fox
+118,Volkswagen,1846,Golf
+118,Volkswagen,1847,Golf GTI
+118,Volkswagen,1848,Golf Plus
+118,Volkswagen,1849,Golf R
+118,Volkswagen,1850,Iltis
+118,Volkswagen,1851,Jetta
+118,Volkswagen,1852,Kaefer
+118,Volkswagen,1853,Lupo
+118,Volkswagen,1854,Multivan
+118,Volkswagen,1855,New Beetle
+118,Volkswagen,1856,Passat
+118,Volkswagen,1857,Passat CC
+118,Volkswagen,1858,Phaeton
+118,Volkswagen,1859,Pointer
+118,Volkswagen,1860,Polo
+118,Volkswagen,1861,Routan
+118,Volkswagen,1862,Santana
+118,Volkswagen,1863,Scirocco
+118,Volkswagen,1864,Sharan
+118,Volkswagen,1865,Taro
+118,Volkswagen,1866,Tiguan
+118,Volkswagen,1867,Touareg
+118,Volkswagen,1868,Touran
+118,Volkswagen,1869,Transporter
+118,Volkswagen,1870,Up
+118,Volkswagen,1871,Vento
+118,Volkswagen,1872,W12
+119,Volvo,1873,140
+119,Volvo,1874,164
+119,Volvo,1875,240
+119,Volvo,1876,260
+119,Volvo,1877,340
+119,Volvo,1878,360
+119,Volvo,1879,440
+119,Volvo,1880,460
+119,Volvo,1881,480
+119,Volvo,1882,66
+119,Volvo,1883,740
+119,Volvo,1884,760
+119,Volvo,1885,780
+119,Volvo,1886,850
+119,Volvo,1887,940
+119,Volvo,1888,960
+119,Volvo,1889,C30
+119,Volvo,1890,C70
+119,Volvo,1891,Laplander
+119,Volvo,1892,S40
+119,Volvo,1893,S60
+119,Volvo,1894,S70
+119,Volvo,1895,S80
+119,Volvo,1896,S90
+119,Volvo,1897,V40
+119,Volvo,1898,V40 Cross Country
+119,Volvo,1899,V50
+119,Volvo,1900,V60
+119,Volvo,1901,V70
+119,Volvo,1902,V90
+119,Volvo,1903,XC60
+119,Volvo,1904,XC70
+119,Volvo,1905,XC90
+120,Vortex,1906,Corda
+120,Vortex,1907,Estina
+120,Vortex,1908,Tingo
+121,Wartburg,1909,353
+122,Wiesmann,1910,GT  
+122,Wiesmann,1911,Roadster
+123,Xin Kai,1912,Pickup X3
+123,Xin Kai,1913,SR-V X3
+123,Xin Kai,1914,SUV X3
+124,ZX,1915,Admiral
+124,ZX,1916,GrandTiger
+124,ZX,1917,Landmark
+125,ВАЗ (LADA),1918,1111 Ока
+125,ВАЗ (LADA),1919,2101
+125,ВАЗ (LADA),1920,2102
+125,ВАЗ (LADA),1921,2103
+125,ВАЗ (LADA),1922,2104
+125,ВАЗ (LADA),1923,2105
+125,ВАЗ (LADA),1924,2106
+125,ВАЗ (LADA),1925,2107
+125,ВАЗ (LADA),1926,2108
+125,ВАЗ (LADA),1927,2109
+125,ВАЗ (LADA),1928,21099
+125,ВАЗ (LADA),1929,2110
+125,ВАЗ (LADA),1930,2111
+125,ВАЗ (LADA),1931,2112
+125,ВАЗ (LADA),1932,2113 Samara
+125,ВАЗ (LADA),1933,2114 Samara
+125,ВАЗ (LADA),1934,2115 Samara
+125,ВАЗ (LADA),1935,2120 Надежда
+125,ВАЗ (LADA),1936,2123
+125,ВАЗ (LADA),1937,2129
+125,ВАЗ (LADA),1938,2328
+125,ВАЗ (LADA),1939,2329
+125,ВАЗ (LADA),1940,4x4 (Нива)
+125,ВАЗ (LADA),1941,Granta
+125,ВАЗ (LADA),1942,Kalina
+125,ВАЗ (LADA),1943,Largus
+125,ВАЗ (LADA),1944,Priora
+126,ВИС,1945,1705
+126,ВИС,1946,1706
+126,ВИС,1947,2345
+126,ВИС,1948,2346
+126,ВИС,1949,2347
+126,ВИС,1950,2349
+127,ГАЗ,1951,12 ЗИМ
+127,ГАЗ,1952,13 Чайка
+127,ГАЗ,1953,14 Чайка
+127,ГАЗ,1954,20 Победа
+127,ГАЗ,1955,21 Волга
+127,ГАЗ,1956,22
+127,ГАЗ,1957,24 Волга
+127,ГАЗ,1958,3101 Волга
+127,ГАЗ,1959,3102 Волга
+127,ГАЗ,1960,3110 Волга
+127,ГАЗ,1961,3111 Волга
+127,ГАЗ,1962,Volga Siber
+127,ГАЗ,1963,Валдай
+127,ГАЗ,1964,Валдай 3310
+127,ГАЗ,1965,Валдай 331063
+127,ГАЗ,1966,ГАЗель
+127,ГАЗ,1967,ГАЗель 2705
+127,ГАЗ,1968,ГАЗель 3221
+127,ГАЗ,1969,ГАЗель 3302
+127,ГАЗ,1970,ГАЗель 33023
+127,ГАЗ,1971,ГАЗель 33025
+127,ГАЗ,1972,ГАЗель Next
+127,ГАЗ,1973,ГАЗель Бизнес
+127,ГАЗ,1974,Соболь
+127,ГАЗ,1975,Соболь 2217
+127,ГАЗ,1976,Соболь 2310
+127,ГАЗ,1977,Соболь 2752
+128,ЗАЗ,1978,1102 Таврия
+128,ЗАЗ,1979,1103 Славута
+128,ЗАЗ,1980,1105 Дана
+128,ЗАЗ,1981,1125
+128,ЗАЗ,1982,1140
+128,ЗАЗ,1983,965
+128,ЗАЗ,1984,966 Запорожец
+128,ЗАЗ,1985,968 Запорожец
+128,ЗАЗ,1986,Chance
+128,ЗАЗ,1987,Forza
+128,ЗАЗ,1988,Sens
+128,ЗАЗ,1989,Vida
+129,ЗИЛ,1990,101
+129,ЗИЛ,1991,110 
+129,ЗИЛ,1992,111 
+129,ЗИЛ,1993,114 
+129,ЗИЛ,1994,117
+129,ЗИЛ,1995,4104
+129,ЗИЛ,1996,4105
+129,ЗИЛ,1997,4107
+130,ИЖ,1998,2125
+130,ИЖ,1999,2126
+130,ИЖ,2000,2715
+130,ИЖ,2001,2717
+131,Москвич,2002,2136
+131,Москвич,2003,2137
+131,Москвич,2004,2138
+131,Москвич,2005,2140
+131,Москвич,2006,2141
+131,Москвич,2007,2335
+131,Москвич,2008,2733
+131,Москвич,2009,2734
+131,Москвич,2010,400
+131,Москвич,2011,401
+131,Москвич,2012,402
+131,Москвич,2013,403
+131,Москвич,2014,407
+131,Москвич,2015,408
+131,Москвич,2016,410 
+131,Москвич,2017,411
+131,Москвич,2018,412
+131,Москвич,2019,420
+131,Москвич,2020,422
+131,Москвич,2021,423
+131,Москвич,2022,424
+131,Москвич,2023,426
+131,Москвич,2024,427
+131,Москвич,2025,430
+131,Москвич,2026,432
+131,Москвич,2027,433
+131,Москвич,2028,434
+131,Москвич,2029,Дуэт
+131,Москвич,2030,Иван Калита
+131,Москвич,2031,Князь Владимир
+131,Москвич,2032,Святогор
+131,Москвич,2033,Юрий Долгорукий
+132,ТагАЗ,2034,Aquila
+132,ТагАЗ,2035,C10
+132,ТагАЗ,2036,C190
+132,ТагАЗ,2037,Hyundai Accent
+132,ТагАЗ,2038,Hyundai Santa Fe Classic
+132,ТагАЗ,2039,Hyundai Sonata
+132,ТагАЗ,2040,Road Partner
+132,ТагАЗ,2041,Tager
+132,ТагАЗ,2042,Tiggo
+132,ТагАЗ,2043,Vega
+132,ТагАЗ,2044,Vortex Corda
+132,ТагАЗ,2045,Vortex Estina
+132,ТагАЗ,2046,Vortex Tingo
+132,ТагАЗ,2047,C10
+132,ТагАЗ,2048,C30
+133,УАЗ,2049,2206
+133,УАЗ,2050,3151
+133,УАЗ,2051,31512
+133,УАЗ,2052,31514
+133,УАЗ,2053,31519
+133,УАЗ,2054,3153
+133,УАЗ,2055,3159
+133,УАЗ,2056,3160
+133,УАЗ,2057,452 Буханка
+133,УАЗ,2058,469
+133,УАЗ,2059,Hunter
+133,УАЗ,2060,Patriot
+133,УАЗ,2061,Симбир

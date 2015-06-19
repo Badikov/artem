@@ -1,154 +1,138 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
+markas = []
+    f = File.join(Rails.root, 'public','Модели', 'markas.txt')
+    puts f
+    file = File.open(f)
+      file.each do |line|
+        markas = line.gsub("\"", "")
+      end
+    file.close
+    mark = []
+    markas.split("},{").each do |h|
+      hash = {}
+      item = h.gsub("[{","").gsub("}]","")
+      a,b = item.split(",")
+      k,v = a.split(":")
+      hash[:id] = v
+      k,v = b.split(":")
+      hash[:name] = v
+      mark << hash
+    end
+# 
+################################################
+# add items to markas table
+i=1
+
+@markas = Marka.select("id,name")
+@markas.each do |mar|
+  mark.each do |m|
+    if mar.name.downcase == m[:name].downcase
+      puts i.to_s + " " + mar.name + "," +mar.id.to_s
+      mar.update(name2: m[:name])
+      i += 1
+    end
+  end
+end
+#########################################################
+
 #
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
-#a = Array.new
-#a=[1, 2, 3, 4,5,6,7,8,9,10]
-#a.each do|x| 
-#  puts x
-#  @release = Release.find_by_id(x)
-#  puts @release.data
-#  @release.destroy
-#end
- 
+# @markas = Marka.select("id,name")
+# @markas.each do |mar|
+#   mark.each do |m|
+#     if mar.name.downcase == m[:name].downcase
+#       puts mar.name + "," +mar.id.to_s
+#       path = File.join(Rails.root, 'public','Модели', "#{m[:id]}.txt")
+#       puts path
+#       models = ""
+#         file = File.open(path)
+#           file.each do |line|
+#             models = line.gsub("\"", "")
+#           end
+#         file.close
+#         mod = []
+#         models.split("},{").each do |h|
+#           hash = {}
+#           item = h.gsub("[{","").gsub("}]","")
+#           a,b = item.split(",")
+#           k,v = b.split(":")
+#           hash[:name] = v
+#           mod << hash
+#         end
 
 
-#file = File.open("avto.txt")
-#  file.each do |line|
-#    id, name = line.chop.split(",")
-#    puts name
-#    Marka.create(name: name)
-#  end
-#file.close
+#         f = File.join(Rails.root, 'public','Модели', 'out.txt')
+#         puts f
+#         file = File.open(f)
+#           file.each do |line|
+#             id, name, mod_id, mod_ = line.chomp("\n").split(",")
+#             if id == mar.id.to_s
+#               mod.map { |k| 
+#                 v = k[:name] 
+#                 puts mod_
+#                 if mod_ == v
+#                   # myfile = File.join(Rails.root, 'public','Модели', 'file.txt')
+#                   # open(myfile, 'a') do |f|
+#                   #   f << id + "," + name + "," + mod_id + "," + mod_ + "," + v + "\n"
+#                   # end
+#                   find = Model.find_by_id mod_id
+#                   find.update(name2: v)
 
-#file = File.open("mark.txt")
-#  file.each do |line|
-#    id, name = line.chop.split(",")
-#    puts name
-#    Model.create(name: name, marka_id: id)
-#  end
-#file.close
+#                 end
+#               }
+#             end
+#           end
+#         file.close
 
-#file = File.open("typ_dvigatela.txt")
-#  file.each do |line|
-#    name = line.chop
-#    puts name
-#    Engine.create(typ: name)
-#  end
-#file.close
-
-#file = File.open("typ_kuzova.txt")
-#  file.each do |line|
-#    name = line.chop
-#    puts name
-#    Body.create(typ: name)
-#  end
-#file.close
-
-#file = File.open("color.txt")
-#  file.each do |line|
-#    name = line.chop
-#    puts name
-#    Color.create(name: name)
-#  end
-#file.close
-
-#file = File.open("size_of_engine.txt")
-#  file.each do |line|
-#    name = line.chop
-#    puts name
-#    Capacity.create(volume: name)
-#  end
-#file.close
-
-#file = File.open("rul.txt")
-#  file.each do |line|
-#    name = line.chop
-#    puts name
-#    Steer.create(typ: name)
-#  end
-#file.close
-
-#file = File.open("god.txt")
-#  file.each do |line|
-#    name = line.chop
-#    puts name
-#    Release.create(data: name)
-#  end
-#file.close
+#     end
+#   end
+# end
 
 
-#file = File.open("privod.txt")
-#  file.each do |line|
-#    name = line.chop
-#    puts name
-#    Drive.create(name: name)
-#  end
-#file.close
+# @markas = Marka.select("id,name")
+# # myfile = File.join(Rails.root, 'public','Модели', 'out.txt')
+# # open(myfile, 'w') do |f|
+#     @markas.each do |t|
 
-#file = File.open("sostoyanie.txt")
-#  file.each do |line|
-#    name = line.chop
-#    puts name
-#    State.create(name: name)
-#  end
-#file.close
+#       mark.each do |m|
+#         if t.name.downcase == m[:name].downcase
+#           puts t.name
+#           @mods = Model.where(marka_id: t.id)
+#           models = []
+#           path = File.join(Rails.root, 'public','Модели', "#{m[:id]}.txt")
+#           puts path
+#           file = File.open(path)
+#           file.each do |line|
+#             models = line.gsub("\"", "")
+#           end
+#           file.close
+#           mod = []
+#           models.split("},{").each do |h|
+#             hash = {}
+#             item = h.gsub("[{","").gsub("}]","")
+#             a,b = item.split(",")
+            
+#             k,v = b.split(":")
+#             hash[:name] = v
+#             mod << hash
+#           end
 
-#file = File.open("owner.txt")
-#  file.each do |line|
-#    name = line.chop
-#    puts name
-#    Owner.create(name: name)
-#  end
-#file.close
+#           # @mods.each do |z|
+#           #   puts path
+#           # end
+          
+#         end
+#       end
+      
+#     end
+# # end
+# myfile = File.join(Rails.root, 'public','Модели', 'out.txt')
+# open(myfile, 'w') do |f|
+#   @markas = Model.select("marka_id,id,name")
+#   @markas.each do |t|
+#     @marka = Marka.where(id: t.marka_id)
+#     f << t.marka_id.to_s + ","  + @marka[0].name + "," + t.id.to_s + "," + t.name + "\n"
+#     # puts t.id, t.name , models.id , models.name
+#     # puts t.inspect
+#   end
+# end
+# puts @markas.size
 
-#file = File.open("probeg.txt")
-#  file.each do |line|
-#    name = line.chop
-#    puts name
-#    Odometer.create(kilometer: name)
-#  end
-#file.close
-
-#file = File.open("gearbox.txt")
-#  file.each do |line|
-#    name = line.chop
-#    puts name
-#    Gearbox.create(name: name)
-#  end
-#file.close
-
-#file = File.open("blacklist.txt")  
-#  i=0
-#  file.each do |line|
-#    phone = line.chop
-#    if phone.match(/^7/) 
-#      n = phone.length
-#      phone = '8' + phone[1..n]
-#    end
-#    puts phone
-#    BlackList.create(phone: phone,coment: "Добавлено при создании списка")
-#    i+=1
-#  end  
-
-#file.close
-#puts i
-
-# a =["Краснодар", "Краснодарский край"]
-# a.map! { |e|  
-  # Location.create(name: e)
-# puts e
-# }
-# citys = ["Новороссийск","Сочи","Анапа"]
-# citys.map! { |e|  
-#    Location.create(name: e)
-#  puts e
-#  }
- 
-# User.create(login: 'artem', name: 'Artem', password: 'password', 
-#  password_confirmation: 'password' ,phone_number: '89182729999')
-
-Region.create(name: "Краснодарский край")

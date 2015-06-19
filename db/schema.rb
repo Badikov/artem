@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150606174259) do
+ActiveRecord::Schema.define(version: 20150618144857) do
 
   create_table "ads", force: :cascade do |t|
     t.string   "phone"
@@ -128,6 +128,7 @@ ActiveRecord::Schema.define(version: 20150606174259) do
     t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "name2"
   end
 
   create_table "models", force: :cascade do |t|
@@ -135,6 +136,7 @@ ActiveRecord::Schema.define(version: 20150606174259) do
     t.integer  "marka_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "name2"
   end
 
   add_index "models", ["marka_id"], name: "index_models_on_marka_id"
