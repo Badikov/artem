@@ -43,7 +43,10 @@ class Ad < ActiveRecord::Base
   scope :_price_to, ->(search) {where("price <= ?",search[:price_to]) if search[:price_to].present?}
   scope :_price_from, ->(search) {where("price >= ?",search[:price_from]) if search[:price_from].present?}
   
-  scope :_region,  ->(search) {where(region_id:search[:region_id]) if search[:region_id].present?}
+  scope :_region,   ->(search) {where(region_id:search[:region_id]) if search[:region_id].present?}
+  # location=1
+  scope :_location, ->(search) {where(location: get_location_name(search[:location])) if search[:location].present?}
+=begin
   # location TODO - переделать нахрен
   scope :_location, ->(search) {  if search[:location].present? 
                                     if search[:location] == '1'
@@ -60,6 +63,8 @@ class Ad < ActiveRecord::Base
                                       where.not(location: citys)
                                     end
                                   end }
+=end
+
   # overseas - только иномарки "overseas"=>"1"
   scope :_overseas, ->(search) {  if search[:overseas].present? 
                                     # id русских моделей авто
@@ -71,6 +76,10 @@ class Ad < ActiveRecord::Base
   before_create :add_md5
 
   protected
+
+  def get_location_name(loc_id)
+    Location.find_by_id(loc_id).select("name")
+  end
 
   def add_md5
     #logger.debug { "===============>" + self.created_at.to_s  }

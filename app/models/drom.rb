@@ -7,11 +7,24 @@ class Drom < ActiveRecord::Base
   belongs_to :state
   belongs_to :region
 
+  def self.delete_all_rows
+    delete_all
+  end
+
+  def self.rows_last_10_min
+    Drom.not_obsolete.where('created_at > ?',(Time.now - 600))
+  end
+
+  def self.mark_obsolete_to_true_rake_method
+    Drom.not_obsolete.where('created_at < ?',(Time.now - 600)).update_all(obsolete: true)
+  end
+
   def self.search(search)
     select('id,phone,md5').not_obsolete._marka(search)._model(search).
     _gearbox(search)._steer(search)._state(search).
     _release_from(search)._release_to(search).
-    _price_from(search)._price_to(search)._overseas(search)
+    _price_from(search)._price_to(search)._overseas(search).
+    _region(search)._location(search)
   end
 
   # not_obsolete - все только актуальные
@@ -27,8 +40,10 @@ class Drom < ActiveRecord::Base
   # price_from & price_to
   scope :_price_to, ->(search) {where("price <= ?",search[:price_to]) if search[:price_to].present?}
   scope :_price_from, ->(search) {where("price >= ?",search[:price_from]) if search[:price_from].present?}
-  # location
-
+  
+  scope :_region,   ->(search) {where(region_id:search[:region_id]) if search[:region_id].present?}
+  # location=1
+  scope :_location, ->(search) {where(location: Location.get_location_name(search[:location])) if search[:location].present?}
   # overseas - только иномарки "overseas"=>"1"
   scope :_overseas, ->(search) {  if search[:overseas].present? 
                                     # id русских моделей авто

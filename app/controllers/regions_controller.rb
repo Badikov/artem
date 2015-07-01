@@ -1,7 +1,29 @@
 class RegionsController < ApplicationController
-  respond_to :json
+  respond_to :json,:html,:js
 
   def index
-    respond_with Region.select("id,name")
+    @regions = Region.select("id,name")
+    @region = Region.new
+    respond_with @regions
+  end
+
+  def create
+    @region = Region.new region_params
+    respond_to do |format|
+      if @region.save
+        format.html { redirect_to @region, notice: 'Region was successfully created.' }
+        format.js   {}
+        format.json { render json: @region, status: :created, location: @region }
+      else
+        format.html { render action: "new" }
+        format.json { render json: @region.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  private
+
+  def region_params
+    params.require(:region).permit(:name)
   end
 end

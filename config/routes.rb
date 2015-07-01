@@ -41,8 +41,8 @@ Rails.application.routes.draw do
   get 'welcome/download_apk', as: :advert
 
   resources :engines, :bodies, :colors, :capacities, :releases, :steers, only: [:index]
-  resources :owners, :states, :drives, :odometers, :gearboxes, :locations, only: [:index]
-  resources :regions, only: [:index]
+  resources :owners, :states, :drives, :odometers, :gearboxes, only: [:index]
+  
   resources :black_lists
 
   get 'versions' => 'versions#index', :as => 'version'
@@ -79,6 +79,10 @@ Rails.application.routes.draw do
   resources :markas do
   #     resources :comments, :sales
     resources :models, shallow: true
+  end
+
+  resources :regions do
+    resources :locations, shallow: true
   end
 
   # Example resource route with more complex sub-resources:
