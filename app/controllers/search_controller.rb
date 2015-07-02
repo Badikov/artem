@@ -6,4 +6,9 @@ class SearchController < ApplicationController
   def search
     respond_with Ad.search params
   end
+
+  # GET /search_drom.json?param=value
+  def search_drom
+  	respond_with Drom.search params
+  end
 end

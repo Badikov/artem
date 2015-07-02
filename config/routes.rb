@@ -33,7 +33,7 @@ Rails.application.routes.draw do
 
 
   match 'search' => 'search#search', as: :search, :via => [:get]
-  
+  match 'search_drom' => 'search#search_drom', as: :search_drom, :via => [:get]
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
