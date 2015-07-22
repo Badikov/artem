@@ -29,7 +29,8 @@ Rails.application.routes.draw do
   #get 'ads/index'
   # убрать как устаревший
   match 'search_m' => 'ads#search_m', as: :search_m, :via => [:get]
-  match 'last' => 'ads#last', as: :last, :via => [:get]
+  match 'last' => 'ads#last',         as: :last,     :via => [:get]
+  match 'last_drom' => 'droms#last_d',as: :last_drom,:via => [:get]
 
 
   match 'search' => 'search#search', as: :search, :via => [:get]

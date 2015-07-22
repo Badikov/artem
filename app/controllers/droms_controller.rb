@@ -24,7 +24,7 @@ class DromsController < ApplicationController
     end
   end
 
-  # GET /last_d.json
+  # GET /last_drom.json
   def last_d
     respond_with Drom.rows_last_10_min
   end
