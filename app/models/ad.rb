@@ -38,7 +38,7 @@ class Ad < ActiveRecord::Base
 
     # not_obsolete - все только актуальные
   scope :not_obsolete, -> {where("obsolete = ?", false)}
-  scope :_yesterday,   -> {where("created_at = ?",Date.yesterday)}
+  scope :_yesterday,   -> {where("DATE(created_at) = ?",Date.today-1)}
   scope :_marka,   ->(search) {where(marka_id:search[:marka_id]) if search[:marka_id].present?}
   scope :_model,   ->(search) {where(model_id:search[:model_id]) if search[:model_id].present?}
   scope :_gearbox, ->(search) {where(gearbox_id:search[:gearbox_id]) if search[:gearbox_id].present?}
