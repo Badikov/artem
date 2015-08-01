@@ -1,0 +1,2 @@
+module YesterdaysHelper
+end

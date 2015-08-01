@@ -2,6 +2,9 @@ Rails.application.routes.draw do
 
   
 
+  match 'yester' => 'yesterdays#yesterday', as: :yester, :via =>[:get]
+  resources :yesterdays, only: [:index]
+
   # get 'droms/index'
 
   # get 'droms/create'

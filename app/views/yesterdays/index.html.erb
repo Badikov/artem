@@ -1,0 +1,38 @@
+<div class="container">
+	<p><%= link_to 'Назад', root_path %></p>
+	<h1>Поиск во вчерашних объявлениях</h1>
+
+	<br/>
+
+	<% release_array = Release.all.collect {|p| [ p.data, p.id ] } %>
+	
+	<%= form_tag(yester_path, :method => "get", id: "search-form") do %>
+	<div class="search_fild">
+		<%= label_tag 'overseas', 'Только иномарки'%>
+		<%= check_box_tag :overseas %>
+	</div>
+	<div class="search_fild">
+		<%= label_tag 'release_from', 'Год выпуска от'%>
+		<%= select_tag(:release_from, options_for_select(release_array), { include_blank: true }) %>
+	</div>
+	<div class="search_fild">
+		<%= label_tag 'release_to', 'Год выпуска до'%>
+		<%= select_tag(:release_to, options_for_select(release_array), { include_blank: true }) %>
+	</div>
+	<div class="search_fild">
+		<%= text_field_tag :price_from, params[:price_from], placeholder: "Цена от" %>
+	</div>
+	<div class="search_fild">
+		<%= text_field_tag :price_to, params[:price_to], placeholder: "Цена до" %>
+	</div>
+	<%= submit_tag "Найти" %>
+	<% end %>
+
+	<br/>
+
+	<%= %>
+	<ul class="search_response">
+		
+	</ul>
+
+</div>

@@ -19,6 +19,13 @@ class Ad < ActiveRecord::Base
     Ad.not_obsolete.where('created_at > ?',(Time.now - 600))
   end
 
+  def self.yesterday_ads(search)
+    # select('phone,created_at')._yesterday
+    select('id,phone')._yesterday._overseas(search).
+    _release_from(search)._release_to(search).
+    _price_from(search)._price_to(search)
+  end
+
   def self.search(search)
     select('id,phone,md5').not_obsolete._marka(search)._model(search).
     _gearbox(search)._steer(search)._state(search).
@@ -31,6 +38,7 @@ class Ad < ActiveRecord::Base
 
     # not_obsolete - все только актуальные
   scope :not_obsolete, -> {where("obsolete = ?", false)}
+  scope :_yesterday,   -> {where("created_at = ?",Date.yesterday)}
   scope :_marka,   ->(search) {where(marka_id:search[:marka_id]) if search[:marka_id].present?}
   scope :_model,   ->(search) {where(model_id:search[:model_id]) if search[:model_id].present?}
   scope :_gearbox, ->(search) {where(gearbox_id:search[:gearbox_id]) if search[:gearbox_id].present?}
