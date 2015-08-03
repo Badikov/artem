@@ -11,6 +11,8 @@
 <body>
   <% if current_user %>
     <%= link_to "Logout", admin_admin_path(current_user), :method => :delete, :confirm => "Are you sure you want to logout?" %>
+    <% elsif !@user_session.present? %>
+    <%= link_to 'Login', admin_admins_path, {:rel => "nofollow"} %>
   <% end %>
 
 <%= yield %>

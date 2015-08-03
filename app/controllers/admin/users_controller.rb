@@ -1,4 +1,5 @@
 class Admin::UsersController < ApplicationController
+  before_filter :require_user
   before_filter :require_admin, except: [:index]
   before_action :set_user, only: [:show, :edit, :update, :destroy]
   

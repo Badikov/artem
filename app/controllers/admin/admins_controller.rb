@@ -2,7 +2,8 @@ class Admin::AdminsController < ApplicationController
 
   def index
     if current_user
-      redirect_to users_path
+      # redirect_to users_path
+      redirect_to root_path
     else
       redirect_to new_admin_admin_path
     end
