@@ -21,6 +21,12 @@ class RegionsController < ApplicationController
     end
   end
 
+  def destroy
+    @region = Region.find(params[:id])
+    @region.destroy
+    redirect_to regions_path, notice: "Region successfully deleted"
+  end
+
   private
 
   def region_params

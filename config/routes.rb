@@ -27,8 +27,8 @@ Rails.application.routes.draw do
 
 
   # resources :ads, only: [:index, :create, :search]
-  resources :ads,   only: [:index, :create]
-  resources :droms, only: [:index, :create]
+  resources :ads,   only: [:create]
+  resources :droms, only: [:create]
   #get 'ads/index'
   # убрать как устаревший
   match 'search_m' => 'ads#search_m', as: :search_m, :via => [:get]
