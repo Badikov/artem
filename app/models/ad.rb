@@ -23,7 +23,8 @@ class Ad < ActiveRecord::Base
     # select('phone,created_at')._yesterday
     select('id,phone')._yesterday._overseas(search).
     _release_from(search)._release_to(search).
-    _price_from(search)._price_to(search)
+    _price_from(search)._price_to(search)._region(search).
+    _location(search)
   end
 
   def self.search(search)
@@ -85,8 +86,9 @@ class Ad < ActiveRecord::Base
 
   protected
 
-  def get_location_name(loc_id)
-    Location.find_by_id(loc_id).select("name")
+  def self.get_location_name(loc_id)
+    location = Location.find_by_id(loc_id)
+    return location.name
   end
 
   def add_md5

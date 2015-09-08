@@ -5,6 +5,7 @@
 	<br/>
 
 	<% release_array = Release.all.collect {|p| [ p.data, p.id ] } %>
+	<% regions_array = Region.all.collect {|r| [ r.name, r.id ] } %>
 	
 	<%= form_tag(yester_path, :method => "get", id: "search-form") do %>
 	<div class="search_fild">
@@ -24,6 +25,14 @@
 	</div>
 	<div class="search_fild">
 		<%= text_field_tag :price_to, params[:price_to], placeholder: "Цена до" %>
+	</div>
+	<div class="search_fild">
+		<%= label_tag 'region_id', 'Регион'%>
+		<%= select_tag(:region_id, options_for_select(regions_array), { include_blank: true }) %>
+	</div>
+	<div class="search_fild">
+		<%= label_tag 'location', 'Город'%>
+		<%= select_tag(:location, options_for_select([]), { include_blank: true }) %>
 	</div>
 	<%= submit_tag "Найти" %>
 	<% end %>

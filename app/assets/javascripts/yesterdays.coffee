@@ -3,6 +3,22 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 ready = ->
+  regions = $("#region_id")
+  cityes  = $("#location")
+  regions.change ()->
+    $( "#region_id option:selected" ).each ()->
+      region_id = $(@).val()
+      $("#location option:not(:first)").remove()
+      if region_id isnt ""
+        $.ajax
+          type  : 'GET'
+          url   : '/regions/'+region_id+'/locations.json'
+          dataType: 'json'
+          success : (data)->
+            $.each data, (i,item)->
+              cityes.append('<option value='+item.id+'>'+item.name+'</option>')
+            # .append('<option selected="selected" value="whatever">text</option>')
+
   $("form#search-form").on 'submit', ()->
     valuesToSubmit = $(@).serialize().replace(/[^&]+=\.?(?:&|$)/g, '')
     $.ajax
