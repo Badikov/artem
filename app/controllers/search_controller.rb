@@ -1,5 +1,5 @@
 class SearchController < ApplicationController
-  before_filter :require_user
+  # before_filter :require_user
   respond_to :json
 
   # GET /search.json?param=value

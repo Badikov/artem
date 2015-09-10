@@ -1,0 +1,63 @@
+
+<% release_array = Release.all.collect {|p| [ p.data, p.id ] } %>
+<% regions_array = Region.all.collect {|r| [ r.name, r.id ] } %>
+
+<%= form_tag(add_filter_path, :method => "post", id: "add-filter-form") do %>
+	<%= content_tag :h1,"Новый шаблон для отправки в Whatsapp"%>
+	
+	<%= content_tag :div,nil, class:"search_fild" do -%>
+		<%= label_tag 'marka_id', 'Марка'%>
+		<%= select_tag("marka_id",options_for_select(@markas.collect {|m| [m['name'],m['id']]}), { include_blank: true }) %>
+	<% end -%>
+	<%= content_tag :div,nil, class:"search_fild",id: "model", hidden: true do -%>
+		<%= label_tag 'model_id', 'Модель'%>
+		<%= select_tag("model_id",options_for_select([]), { include_blank: true }) %>
+	<% end -%>
+	<%= content_tag :div,nil, class:"search_fild" do -%>
+		<%= label_tag 'release_from', 'Год выпуска от'%>
+		<%= select_tag(:release_from, options_for_select(release_array), { include_blank: true }) %>
+	<% end -%>
+	<%= content_tag :div,nil, class:"search_fild" do -%>
+		<%= label_tag 'release_to', 'Год выпуска до'%>
+		<%= select_tag(:release_to, options_for_select(release_array), { include_blank: true }) %>
+	<% end -%>
+	<%= content_tag :div,nil, class:"search_fild" do -%>
+		<%= label_tag 'gearbox_id', 'Коробка передач'%>
+		<%= select_tag("gearbox_id",options_for_select(@gearboxes.collect {|g| [g['name'],g['id']]}), { include_blank: true }) %>
+	<% end -%>
+	<%= content_tag :div,nil, class:"search_fild" do -%>
+		<%= label_tag 'steer_id', 'Руль'%>
+		<%= select_tag("steer_id",options_for_select(@steers.collect {|s| [s['typ'],s['id']]}), { include_blank: true }) %>
+	<% end -%>
+	<%= content_tag :div,nil, class:"search_fild" do -%>
+		<%= label_tag 'state_id', 'Cостояние'%>
+		<%= select_tag("state_id",options_for_select(@states.collect {|s| [s['name'],s['id']]}), { include_blank: true }) %>
+	<% end -%>
+	<%= content_tag :div,nil, class:"search_fild" do -%>
+		<%= label_tag 'region_id', 'Регион'%>
+		<%= select_tag(:region_id, options_for_select(regions_array), { include_blank: true }) %>
+	<% end -%>
+	<%= content_tag :div,nil, class:"search_fild" do -%>
+		<%= label_tag 'location', 'Город'%>
+		<%= select_tag(:location, options_for_select([]), { include_blank: true }) %>
+	<% end -%>
+	<%= content_tag :div,nil, class:"search_fild" do -%>
+		<%= label_tag 'price_from', 'Цена от' %>
+		<%= text_field_tag :price_from, params[:price_from] %>
+	<% end -%>
+	<%= content_tag :div,nil, class:"search_fild" do -%>
+		<%= label_tag 'price_to', 'Цена до' %>
+		<%= text_field_tag :price_to, params[:price_to] %>
+	<% end -%>
+	<%= content_tag :div,nil, class:"search_fild" do -%>
+		<%= label_tag 'overseas', 'Только иномарки'%>
+		<%= check_box_tag :overseas %>
+	<% end -%>
+	<%= content_tag :div,nil, class:"search_fild" do -%>
+		<%= text_area_tag(:note, nil,size: "55x3", placeholder: "Шаблон сообщения...") %>
+	<% end -%>
+	<%= content_tag :div,nil, class:"search_fild" do -%>
+	<% end -%>
+	<%= submit_tag "Добавить шаблон и фильтр" %>
+
+<% end %>

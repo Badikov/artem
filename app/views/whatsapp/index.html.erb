@@ -1,0 +1,9 @@
+<%= content_tag :div, nil, class: "container" do -%>
+	<p><%= link_to 'Назад', root_path %></p>
+	<%= content_tag :div,nil, class: "filters" %>
+	<p></p>
+	<%= render partial: 'form_filter'%>
+<% end -%>
+
+
+

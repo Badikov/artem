@@ -2,6 +2,10 @@ Rails.application.routes.draw do
 
   
 
+  match  'whatsapp' => 'whatsapp#index'  , as: :whatsapp, :via => [:get]
+  post   'add_filter' => 'whatsapp#create' , as: :add_filter
+  delete 'whatsapp' => 'whatsapp#destroy', as: :delete_filter
+
   match 'yester' => 'yesterdays#yesterday', as: :yester, :via =>[:get]
   resources :yesterdays, only: [:index]
 
@@ -13,7 +17,7 @@ Rails.application.routes.draw do
 
   #get 'search/search'
 
-  post 'sessions' => 'user_sessions#create', :as => 'login'
+  post   'sessions' => 'user_sessions#create', :as => 'login'
   delete 'sessions' => 'user_sessions#destroy', :as => 'logout'
     
   namespace :admin do
