@@ -1,5 +1,5 @@
 class WhatsappController < ApplicationController
-
+  before_filter :require_user
   def index
   	@markas = Marka.all.as_json(only: [:id, :name])
   	@gearboxes = Gearbox.all.as_json(only: [:id, :name])
@@ -17,30 +17,37 @@ class WhatsappController < ApplicationController
     @new_filter[timestamp] = params.as_json(except: [:utf8,:authenticity_token,:controller,:action])
     
     data_hash.merge!(@new_filter)
-    file = File.open('filters.json','w+')
-    file.puts(data_hash.to_json)
-    file.close
+    write_file_with_filters data_hash
   	# Rails.logger.info(params.as_json(except: [:utf8,:authenticity_token,:controller,:action]).inspect)
-    
-    # file = File.open('filters.json','r')
-    # if file.size > 0
-    #   puts file.size
-    # else
-    #   file.close
-    #   file = File.new('filters.json','w+')
-    #   ary << params.as_json(except: [:utf8,:authenticity_token,:controller,:action])
-    #   file.write(ary)
-    # end
+  end
 
+  def update
+    Rails.logger.info(params.inspect)
+    @id = params[:id]
+    data_hash = read_file_with_filters
+    data_hash[@id].merge!({"human"=>params[:human]})
+    write_file_with_filters data_hash
+
+    render nothing: true
   end
 
   def destroy
-  	
+    @id = params[:id]
+    data_hash = read_file_with_filters
+    data_hash.delete(@id)
+    write_file_with_filters data_hash
+  	# Rails.logger.info(params.inspect)
   end
 
   private
   # directory = "../../shared"
   # f = File.join(Rails.root, 'public', 'version.txt')
+
+  def write_file_with_filters(hash)
+    file = File.open('filters.json','w+')
+    file.puts(hash.to_json)
+    file.close
+  end
 
   def read_file_with_filters
     require 'json'

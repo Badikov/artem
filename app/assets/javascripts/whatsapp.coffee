@@ -5,6 +5,7 @@
 ready = ->
 	markas = $("#marka_id")
 	models = $("#model_id")
+	txtar_note   = $("#note")
 	markas.change ()->
 		$("#marka_id option:selected").each ()->
 			marka_id = $(@).val()
@@ -22,13 +23,23 @@ ready = ->
 		        		models.append('<option value='+item.id+'>'+item.name+'</option>')
 		        	$("#model").show()
 	$("#add-filter-form").on 'submit', ()->
-		valuesToSubmit = $(@).serialize().replace(/[^&]+=\.?(?:&|$)/g, '')
-		$.ajax
-			type    : 'POST',
-			url     : $(@).attr('action'),
-			data    : valuesToSubmit,
-			dataType: 'json'
+		value = txtar_note.val()
+		if value.length > 0
+			valuesToSubmit = $(@).serialize().replace(/[^&]+=\.?(?:&|$)/g, '')
+			$.ajax
+				type    : 'POST',
+				url     : $(@).attr('action'),
+				data    : valuesToSubmit,
+				dataType: 'script'
+		else
+			txtar_note.addClass "input-error"
+			$("span.error").show()
+			setTimeout remove_error_style,4000,false
 		return false
+
+	remove_error_style = ()->
+		txtar_note.removeClass "input-error"
+		$("span.error").hide 400
 
 $(document).ready(ready)
 $(document).on('page:load', ready)

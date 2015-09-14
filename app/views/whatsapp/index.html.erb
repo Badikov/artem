@@ -1,7 +1,13 @@
 <%= content_tag :div, nil, class: "container" do -%>
 	<p><%= link_to 'Назад', root_path %></p>
-	<%= content_tag :div,nil, class: "filters" %>
-	<p></p>
+	<%= content_tag :div,nil, class: "filters" do -%>
+		<% if @data_hash.length>0 %>
+			<% @data_hash.each do |key,value|%>
+				<%= content_tag :p, value["human"], id: key %>
+				<%= link_to "Удалить фильтер", whatsapp_path(key), {id:key,remote: true, method: :delete} %>
+			<% end %>
+		<% end %>
+	<% end -%>
 	<%= render partial: 'form_filter'%>
 <% end -%>
 

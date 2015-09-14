@@ -2,7 +2,7 @@
 <% release_array = Release.all.collect {|p| [ p.data, p.id ] } %>
 <% regions_array = Region.all.collect {|r| [ r.name, r.id ] } %>
 
-<%= form_tag(add_filter_path, :method => "post", id: "add-filter-form") do %>
+<%= form_tag('/whatsapp', :method => "post", id: "add-filter-form") do %>
 	<%= content_tag :h1,"Новый шаблон для отправки в Whatsapp"%>
 	
 	<%= content_tag :div,nil, class:"search_fild" do -%>
@@ -55,6 +55,7 @@
 	<% end -%>
 	<%= content_tag :div,nil, class:"search_fild" do -%>
 		<%= text_area_tag(:note, nil,size: "55x3", placeholder: "Шаблон сообщения...") %>
+		<%= content_tag :span, 'Не может быть пустым', class:"error", hidden: true %>
 	<% end -%>
 	<%= content_tag :div,nil, class:"search_fild" do -%>
 	<% end -%>

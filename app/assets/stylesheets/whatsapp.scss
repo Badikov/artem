@@ -15,4 +15,12 @@
 	select,input {
 		margin-left: 20px;
 	}
+	textarea.input-error {
+    background: #f9e5e6 none repeat scroll 0 0;
+    border: 1px solid #e8aaad;
+    color: #b50007;
+	}
+	.error{
+        color: #b50007;
+    }
 }

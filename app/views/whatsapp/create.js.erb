@@ -1,5 +1,43 @@
-<% @new_filter.each do |key,value| %>
-	<% value.each do |param,index| %>
-		
-	<% end %>
-<% end %>
+
+function humanize_filter(params) {
+	var result_str = "";
+	// console.log(Object.keys(params));
+	var items = Object.keys(params);
+	// console.log(items);
+	items.forEach(function(item) {
+		if (item === "note") {
+			// console.log(item);
+			result_str += "Сообщение: " + params[item];
+		} else {
+			var type = $("#"+item).prop("type");
+			if (type === "select-one") {
+				result_str += $("label[for="+item+"]").text() + ": "+ $("#"+item+" option[value="+params[item]+"]").text() + " ";
+			} else if (type === "text") {
+				result_str += $("label[for="+item+"]").text() + ": "+ params[item] + " ";
+				// console.log($("#"+item+" option[value="+params[item]+"]").text());
+			} else if (type === "checkbox") {
+				result_str += $("label[for="+item+"]").text() + ": " + (params[item] === "1" ? "Да " : "Нет ") + " ";
+			}
+			// console.log(params[item]);
+		}
+	});
+	return result_str;
+}
+function update_filter(url,data) {
+	$.ajax({
+		url     : url,
+		type    : 'PUT',
+		data    : { human: data },
+		dataType: 'json'
+	});
+}
+
+<% hash = @new_filter.values[0] %>
+var result = <%= raw hash.to_json %>;
+
+$("<p id=<%= @new_filter.keys[0] %>>"+humanize_filter(result)+"</p>").appendTo(".filters");
+$("p#<%= @new_filter.keys[0] %>").after("<a id=<%= @new_filter.keys[0] %> href='/whatsapp/<%= @new_filter.keys[0] %>' data-method='delete' data-remote='true'>Удалить фильтер</a>");
+// обновить файл с json через ajax update
+var human = $("p#<%= @new_filter.keys[0] %>").text();
+// console.log(human);
+update_filter('/whatsapp/<%= @new_filter.keys[0] %>',human);
