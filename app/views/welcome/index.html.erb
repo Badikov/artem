@@ -1,8 +1,10 @@
 <div class="container">
+	<% if current_user %>
 	<h1>Welcome</h1>
 	<!--<p><%= link_to 'Cписок', admin_admins_path, {:rel => "nofollow"} %></p> -->
 	<p><%= link_to 'Cписок', users_path, {:rel => "nofollow"} %></p>
 	<p><%= link_to 'Download APK', advert_path, {:rel => "nofollow"} %></p>
+	
 	<p><%= link_to 'Новый телефон в черный список', new_black_list_path, {:rel => "nofollow"} %></p>
 	<p><%= link_to 'Марки - Модели', markas_path, {:rel => "nofollow"} %></p>
 
@@ -11,4 +13,5 @@
 	<p><%= link_to 'Вчерашние объявления', yesterdays_path, {:rel => "nofollow"} %></p>
 
 	<p><%= link_to 'Whatsapp рассылка', whatsapp_index_path, {:rel => "nofollow"} %></p>
+	<% end %>
 </div>

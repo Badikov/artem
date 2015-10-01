@@ -1,5 +1,5 @@
 class WhatsappController < ApplicationController
-  before_filter :require_user
+  # before_filter :require_user
   def index
   	@markas = Marka.all.as_json(only: [:id, :name])
   	@gearboxes = Gearbox.all.as_json(only: [:id, :name])
