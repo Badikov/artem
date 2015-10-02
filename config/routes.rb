@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
 
   resources :whatsapp, only: [:index, :create, :update, :destroy]
-
+  match 'new_phone'  => 'whatsapp#new_phone',  as: :new_phone,  :via => [:get ]
+  match 'send_phone' => 'whatsapp#send_phone', as: :send_phone, :via => [:post]
   
   
   

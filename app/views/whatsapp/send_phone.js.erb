@@ -1,0 +1,16 @@
+
+<% if @result == 'sent' %>
+	$("#sender").val('Отправить код');
+	$("#phone").val('');
+	$("label[for='phone']").text("Код подтверждения (123456)");
+	$(".fail").empty();
+<% elsif @result == 'fail' %>
+	<% @fail_result.each do |line|%>
+		$(".fail").append('<%= raw line%>')
+	<% end %>
+<% elsif @result == 'ok' %>
+	$("#sender").val('Отправить номер телефона');
+	$("#phone").val('');
+	$("label[for='phone']").text("Номер телефона (79180000000)");
+	$(".fail").empty();
+<% end %>

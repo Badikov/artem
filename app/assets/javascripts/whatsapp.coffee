@@ -3,6 +3,7 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 ready = ->
+	phone  = $("#phone")
 	markas = $("#marka_id")
 	models = $("#model_id")
 	txtar_note   = $("#note")
@@ -22,6 +23,21 @@ ready = ->
 		        	$.each data, (i,item)->
 		        		models.append('<option value='+item.id+'>'+item.name+'</option>')
 		        	$("#model").show()
+
+	$("#new-phone-form").on 'submit', ()->
+		value = phone.val()
+		reg = /^\d{11}$|^\d{6}$/
+		if reg.test(value) #or value.length is 6  
+			valuesToSubmit = $(@).serialize()
+			$.ajax
+				type    : 'POST',
+				url     : $(@).attr('action'),
+				data    : valuesToSubmit,
+				dataType: 'script'
+		else
+			alert "Не верное значение!"
+		return false
+
 	$("#add-filter-form").on 'submit', ()->
 		value = txtar_note.val()
 		if value.length > 0

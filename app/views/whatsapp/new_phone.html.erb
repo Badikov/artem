@@ -1,0 +1,15 @@
+<%= content_tag :div,nil, class:"container" do -%>	
+	<p><%= link_to 'Назад', root_path %></p>
+	<%= form_tag("/send_phone", :method => "post", id: "new-phone-form",:autocomplete => 'off') do %>
+
+		<%= content_tag :div,nil, class:"search_fild" do -%>
+			<%= label_tag 'phone', 'Номер телефона (79180000000)'%><br>
+			<%= text_field_tag :phone %>
+		<% end -%>
+
+		<%= submit_tag "Отправить номер телефона", id:"sender" %>
+
+	<% end -%>
+	<p></p>
+	<%= content_tag :div,nil, class:"fail" %>
+<% end -%>

@@ -1,5 +1,7 @@
 class WhatsappController < ApplicationController
-  # before_filter :require_user
+  before_filter :require_user #, :only => [:new_phone, :send_phone]
+  $foo = ''
+
   def index
   	@markas = Marka.all.as_json(only: [:id, :name])
   	@gearboxes = Gearbox.all.as_json(only: [:id, :name])
@@ -37,6 +39,53 @@ class WhatsappController < ApplicationController
     data_hash.delete(@id)
     write_file_with_filters data_hash
   	# Rails.logger.info(params.inspect)
+  end
+
+  def new_phone
+    # puts $foo
+  end
+
+  def send_phone
+    require 'open3'
+    password = ''
+    @result  = ''
+    @fail_result = []
+    prx ="http://localhost:8118"
+
+    if params[:phone].length == 11
+      $foo = params[:phone]
+      
+      command = "export http_proxy=#{prx} && ~/yowsup/yowsup-cli registration -r sms -C 7 -p " + $foo
+      Open3.popen2e(command) {|stdin, stdout_err, wait_thr|
+        while line = stdout_err.gets
+            @fail_result << line
+          if line.start_with?("status:")
+            @result = line.gsub("status: ", '').chop # sent || fail
+          end
+        end
+      }
+      # Rails.logger.info(params.inspect)
+      # @result = "sent"
+    elsif params[:phone].length == 6
+      cmd = "export http_proxy=#{prx} && ~/yowsup/yowsup-cli registration -R #{params[:phone]} -C 7 -p " + $foo
+      Open3.popen2e(cmd) {|stdin, stdout_err, wait_thr|
+        while line = stdout_err.gets
+          @fail_result << line
+          if line.start_with?("status:")
+            @result = line.gsub("status: ", '').chop # ok ||
+          elsif line.start_with?("pw:")
+            password = line.gsub("pw: ", '').chop  
+          end
+        end
+      }
+
+      unless password.blank?
+        cmd = "ruby ~/whatsapp/add_phone_to_db.rb #{$foo} #{password}"
+        Open3.popen2e(cmd) {|stdin, stdout_err, wait_thr|   }
+      end
+      # @result = "ok"
+      # $foo = '' # не забыть в конце очистить номер телефона???????????????????????
+    end
   end
 
   private
