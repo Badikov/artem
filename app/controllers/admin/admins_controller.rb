@@ -22,7 +22,8 @@ class Admin::AdminsController < ApplicationController
       # Rails.logger.info(@user_session.inspect)
       redirect_to admin_admins_path
     else
-      redirect_to new_admin_admin_path
+      # redirect_to new_admin_admin_path
+      redirect_to root_path
     end
   end
 
